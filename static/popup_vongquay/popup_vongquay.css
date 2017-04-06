@@ -1,0 +1,360 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a,p{font-family: Tahoma;text-decoration: none}
+
+.wr_vongquay{position: relative;width: 726px;height: 550px;background: url(bg1.png)no-repeat center	top;position: relative;}
+.vongquay{width: 726px;height:550px;}
+body{
+	outline: none;
+	font-family: arial;
+}
+
+.logged {
+text-align: right;
+margin-right: 133px;
+/* margin-top: 45px; */
+min-width: 135px;
+position: absolute;
+top: 92px;
+right: 55px;
+}
+.logged p{font-size: 13px;color: #ddab36;line-height: 20px;}
+.logged a{color: #eda952;font-size: 13px;line-height: 20px;}
+.logged a:hover{color: #ffee00;}
+
+.fl_vongquay{width: 455px;height: 455px;background: url(vongquay_2.png)no-repeat; }
+.wap_vl_ap{
+	width: 455px;height: 455px;position: absolute;bottom: 16px;left: 10px;
+	overflow: hidden;
+}
+a.close{display: block;width: 28px;height: 28px;background: url(x.png)no-repeat;position: absolute;right:0px;top:30px;}
+
+a.luotquay{background: url(luotquay.png)no-repeat;position: absolute;width: 168px;height: 42px;top: 121px;
+right: 130px;}
+
+a.bt-bxh{background: url(napthe.png)no-repeat;position: absolute;width: 140px;height: 60px;top:266px;right:5px;}
+a.bt-bxh:hover{background: url(napthe_hover.png)no-repeat;}
+.tab-1, .tab-2{/*width: 396px; height: auto; position: absolute; top: 350px; right: 0px;*/}
+.tab-2 ul{width: 100%; margin: 30px 0 0;}
+.page-1{
+	color: #B3D31B;font-weight: bold;
+}
+.tab-2 ul:first-child li{
+font-weight: bold;}
+.tab-2 ul li{
+	float: left;
+font-size: 12px;
+text-align: center;
+line-height: 16px;
+color: #eaa844;
+border: 1px solid #60524c;
+height: 30px;
+line-height: 30px;
+padding: 0px 10px;
+}
+.tab-2 ul li img{
+	max-height:100%;
+	float: left;
+}
+.tab-2 ul li.stt,.tab-2 ul li.lq{width: 41px;}
+.tab-2 ul li.tbk{width: 100px}
+.tab-2 ul li.pt{width: 204px; font-size: 12px;}
+.tab-1{display: 	none}
+.tab-2{display: 	none}
+.tab {
+position: absolute;
+top: 164px;
+right: 126px;
+background: url(tab.png)no-repeat;
+width: 168px;
+height: 33px;
+}
+.tab span {
+width: 46px;
+display: inline-block;
+vertical-align: top;
+zoom: 1;
+height: 27px;
+line-height: 27px;
+color: #b92121;
+font-size: 16px;
+font-family: Tahoma;
+text-indent: 4px;
+}
+.tab span.first{text-indent: 10px}
+.tab-2 .page{margin: 20px 25px 0 0; float: right; height: 20px;margin-right: 180px;}
+.tab-2 .page ul{margin: 0}
+.tab-2 .page ul li{width: 18px; height: 18px; margin: 0 0 0 10px; background: #fff; line-height: 18px; float: left;border-radius: 5px;}
+.tab-2 .page ul li:hover{background: #2c9cb0}
+.tab-2 .page ul li a{color: #000; display: block; width: 18px; height: 18px; text-align: center; line-height: 18px;}
+.tab-2 .page ul li a:hover{color: #fff;}
+.tab-2{
+	float: 	right;	
+	margin-right: 	15px;
+}
+.thele{width: 200px;height: 185px; float: left; margin: 30px 0 0;}
+.thele p{color: #d9ceca;font-size: 11px;line-height: 13px;padding-left:  15px}
+.thele p.title{margin-top: 10px;background: url(sq.png)no-repeat left center;padding-left: 15px;}
+
+.phanthuong{width: 169px;height: 215px;float: left; margin: 30px 0 0;}
+.phanthuong p{color: #d9ceca;font-size: 11px;line-height: 13px;}
+.phanthuong p:first-child{height: 30px;border-bottom: 1px solid #5f534f;line-height: 30px;margin-bottom: 5px;}
+.phanthuong p span{width: 30px;display: inline-block;vertical-align: top;zoom: 1; /* Fix for IE7 */*display: inline; /* Fix for IE7 */text-align: center;}
+
+a.ds_trungthuong{display: block;position: absolute;bottom: 7px;right: 205px;width: 238px;height: 28px;background: url(bg_dstrungthuong.png)no-repeat;color: #be6940}
+a.ds_trungthuong:hover{background:url(bg_dstrungthuong_hv.png)no-repeat}
+
+
+/*----------------------------------------------------------------------------------SELECT BOX----------------------------------------------------------------------------------*/
+.selectbox {
+	position: absolute;
+	width: 143px;
+	height: 37px;
+	top: 85px;
+	left: 304px;
+	z-index: 200;
+}
+.selectbox select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+
+.selectbox .fancy-select div.trigger{
+	height: 37px;
+	outline: none;
+	text-align: center;
+	text-transform: normal;
+	color: #eda952;
+	background: none;
+	border: none;
+	height: 37px;
+	width: 145px;
+	font-size: 12px;
+	font-family: Tahoma;
+	font-weight:normal;
+	padding: 0;
+	box-shadow: none;
+	line-height: 37px;
+}
+.selectbox .fancy-select div.trigger:after{display: none}
+.selectbox .fancy-select div.trigger.open{background: none;border: none;border-radius: 0px;color: #eda952}
+.selectbox .fancy-select select:focus + div.trigger{box-shadow: none}
+.selectbox .fancy-select ul.options{
+	list-style: none;
+	margin: 0;
+	position: absolute;
+	top: 25px;
+	left: -20px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 50;
+	max-height: inherit;
+	overflow: auto;
+	background: #5b2e27;
+	border-radius: 0px;
+	border-top:none;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	min-width: 160px;
+}
+.selectbox .fancy-select ul.options.open{top:37px;left:-20px;}
+.selectbox .fancy-select ul.options li.selected {
+background: url(hv.png)no-repeat 9px 18px;
+background-color: #4a251f;
+color: #eecb77;
+}
+.selectbox .fancy-select ul.options li.hover {
+background: url(hv.png)no-repeat 9px 18px;
+background-color: #4a251f;
+color: #eecb77;
+}
+.selectbox .fancy-select ul.options li {
+height: 20px;line-height:20px;
+color: #eecb77;
+cursor: pointer;
+white-space: nowrap;
+border-bottom: 1px solid #673a32;
+text-indent: 26px;
+background: url(normal.png)no-repeat 12px 18px;
+text-transform:none;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: normal;
+
+}
+
+.kim-chi {
+  	background: url("trucquay.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  	height: 153px;
+	left: 177px;
+	position: absolute;
+	top: 215px;
+	width: 125px;
+	display: block;
+}
+
+
+.kim-chi{
+	transition:All 1s ease;
+	-webkit-transition:All 1s ease;
+	-moz-transition:All 1s ease;
+	-o-transition:All 1s ease;
+	transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+	-webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+	-moz-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+	-o-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+	-ms-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+}
+.xoay{
+	transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+	-webkit-transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+	-moz-transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+	-o-transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+	-ms-transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+}
+
+.fancy-select ul{
+	height: 260px;
+	overflow: auto;
+}
+
+.cl-nap-the {
+width: 123px;
+height: 60px;
+display: block;
+top: 120px;
+right: 2px;
+position: absolute;
+font-size: 0px;
+}
+
+.main-point{
+	font-size: 12px;
+	color: #5c3422;
+	position: absolute;
+	right: 6px;
+	top: 80px;
+	width: 142px;
+}
+.main-point span{
+	font-weight: bold;
+}
+.wap-button{
+	width: 	586px;
+	height: 	38px;	
+}
+.button-vq{
+	width: 	192px;
+	height: 	39px;
+	display: block;	
+	background:url('button.png') left top no-repeat	;
+}
+.button-bxh{
+	width: 	192px;
+	height: 	39px;
+	display: block;	
+	background:url('button.png') -197px top no-repeat	;
+}
+.button-doi-diem{
+	width: 	192px;
+	height: 	39px;
+	display: block;	
+	background:url('button.png') -393px top no-repeat	;
+}
+.wap-button a{
+	float: 	left;	
+}
+.wap-button{
+	width: 586px;
+	height: 38px;
+	right: 30px;
+	top: 10px;
+	z-index: 9999;
+	position: absolute;
+}
+.wap-main-tab{
+	width: 500px;
+	height: 480px;
+	background:#791e21;
+	position: absolute;
+	z-index: 999;
+	right: 0px;
+	bottom: 0px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-bottom-right-radius: 20px;
+	display: none;	
+}
+.pt-thuong{
+	position: absolute;
+	right: 0px;
+	top: 234px;
+}
+.tab-2 ul{
+	float: none;
+	clear: both;
+}
+.main-tab-f .item{
+	float: left;
+	width: 	130px;
+	overflow: 	hidden;	
+	background:url('bg-item-cg.png') left top repeat-x;
+	margin: 10px 6px;
+}
+.clear{
+	float: 	none;	
+	clear: 	both;	
+}
+.main-tab-f .item .title{
+	color: 	#FFF;
+	font-size: 	14px;
+	height: 	27px;
+	line-height: 	27px;
+	text-align: 	center;	
+}
+.main-tab-f .item .img{
+	float: 	left;
+	margin: 9px 5px 10px 10px;	
+}
+.right-item{
+	float: left;
+	margin-top: 10px;
+	font-size: 	12px;
+}
+.right-item a{
+	background:url('bg-bt-dd.png') center center no-repeat;
+	display: block;
+	width: 84px;
+	height: 25px;
+	color: #FFF;
+	line-height: 25px;
+	text-align: center;
+	text-transform:uppercase;	
+	margin-top: 	5px;
+}
+.pt-thuong img{
+	width: 208px;
+}
+.item .img img{
+	width: 	30px;
+}
+.tt-g-mc{
+	color: #ffffb3;
+	font-size: 	12px;
+		position: absolute;
+	top: 55px;
+	right: 102px;
+	text-transform: uppercase;
+}
+.diemtl2{
+	color: #ffffb3;
+	font-size: 	12px;
+	margin-left: 	5px;	
+}
+.div-doitop{
+	position: absolute;
+left: 200px;
+background: blue;
+height: 30px;
+width: 120px;
+top: 14px;
+}
+.div-doitop .bnt-changtop{display: block; height: 100%; width: 100%; background: #278a9c; color: #fff; line-height: 30px; text-align: center;}

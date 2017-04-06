@@ -1,0 +1,48 @@
+.account{width:645px;height:509px;background:url(../images/account2/popup-bg.png) top left no-repeat;overflow:hidden;font-size:13px;font-family:arial}
+#tab-regis{width:244px;float:right;margin:26px 72px 0 0;background:url(../images/account2/tab-regis.png) no-repeat;clear: both;}
+#tab-login{width:244px;float:right;margin:26px 72px 0 0;background:url(../images/account2/tab-login.png) no-repeat;clear: both;}
+
+ul.tab-menu{float:right;height:32px;width:270px;text-align:center;margin:116px 38px 0 0;}
+ul.tab-menu li{float: left;list-style: none;}
+ul.tab-menu li a{display: block;float: left;background:url(../images/account2/button.png) no-repeat;width: 108px;height:44px;}
+ul.tab-menu li a.bt-login{background-position:-110px 0;}
+ul.tab-menu li a.bt-regis{background-position:0 0;}
+ul.tab-menu li a.bt-login.menu-active{background-position:-110px -51px;}
+ul.tab-menu li a.bt-regis.menu-active{background-position:0 -51px;}
+
+ul.social{float:right;height:32px;width:170px;text-align:center;margin:10px 38px 0 0;}
+ul.social li{float: left;margin:0 0 0 6px;}
+ul.social li a{float: left;}
+
+.span-sv{color:#000000;font-weight:bold;font-size:18px;font-family:tahoma;text-transform:uppercase;clear: both;text-align: center;margin: 14px 40px 0 -44px;float: left;}
+
+#btn-regis{margin: 10px 0 0 51px;}
+.btn_accou{display: block;text-align: center;width: 110px;height: 36px;color:#fff;font-weight: bold;text-transform: uppercase;background:#ff4b4b;border-radius: 4px;outline: none;line-height: 36px;margin: 0 auto;}
+
+.account .title{height:60px}
+.account .kq-rg,.kq-login{line-height:20px;text-align:center;color:red;font-size:12px;height: 20px;}
+.account .kq-rg{}
+.account p{width:222px;height:37px;margin:0 0 1px;line-height:37px;font-size:13px}
+.account p span.ac-acc{background:url(../images/account/icon-text.png) top left no-repeat;width:37px;height:37px;display:block;float:left}
+.account p span.ac-mail{background:url(../images/account/icon-text.png) -74px 0 no-repeat;width:37px;height:37px;display:block;float:left}
+.account p span.ac-pass{background:url(../images/account/icon-text.png) -37px 0 no-repeat;width:37px;height:37px;display:block;float:left}
+.account p span.ac-phone{background:url(../images/account/icon-text.png) -111px 0 no-repeat;width:37px;height:37px;display:block;float:left}
+.account p input[type=password],.account p input[type=text]{height:34px;width: 205px;float:left;padding:0 0px 0;border:none!important;color:#9c99c3;outline:0;background:0 0;margin: 0 0 0 34px;}
+.account p input[type=password]:focus,.account p input[type=text]:focus{border:1px solid #66afe9}
+.account p input[type=checkbox]{height:16px;width:16px;float:left;line-height:37px;background:0 0;margin:5px 12px 0 0}
+.account p label{float:left}
+.account p a{margin-left:20px;color:red}
+.account p a:hover{color:#1611f8}
+
+#fancybox-content{width:617px!important;border:none!important}
+#fancybox-close{background:none!important;right:15px!important;top:0!important}
+.btn_log,.btn_reg{height:38px;width:155px;cursor:pointer;display:block;border:none;font-size:0;background:url(../images/account/btndndk.png) -498px -20px no-repeat;margin:36px 0 0 70px}
+.btn_reg{background-position:-1px 0;margin:190px 0 0 -32px}
+.btn_reg:hover{background-position:0 -50px}
+.btn_log:hover{background-position:-498px -64px}
+.icon_social{background:url(http://daichuate.com/static/images/intro/social_icon.png) no-repeat}
+.social-fp,.social-gg,.social-yh{-webkit-transition:opacity .5s;-moz-transition:opacity .5s;-o-transition:opacity .5s}
+.social-fp:hover,.social-gg:hover,.social-yh:hover{opacity:.75}
+.social-fp{width:44px;height:43px;background-position:-154px -9px;display:block}
+.social-gg{width:44px;height:43px;background-position:-218px -9px;display:block}
+.social-yh{width:44px;height:43px;background-position:-282px -72px;display:block}

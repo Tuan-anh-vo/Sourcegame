@@ -1,0 +1,1 @@
+<a href="javascript:void(0)" onclick="updateStatus(<?=$id?>,<?=$status?>,'<?=$module?>')"><?php ($status==0) ? print 'Install' : print 'Uninstall' ?></a>

@@ -1,0 +1,46 @@
+@charset "utf-8";
+body {}
+.container {display: block; float: left; width: 100%;}
+.container-left {display: block; float: left; width: 125px;}
+.menu-left {display: block; float: right; width: 59px;}
+.menu-left ul li {background: url(menu-left.jpg) no-repeat; width: 59px; height: 83px; cursor: pointer;}
+.menu-left ul li:hover {background: url(menu-left-hover.jpg) no-repeat; width: 59px;}
+.menu-left ul li.selected {background: url(menu-left-hover.jpg) no-repeat; width: 59px;}
+.menu-left ul li+li {background-position: 0px -83px; height: 85px;}
+.menu-left ul li+li:hover {background-position: 0px -83px; height: 85px;}
+.menu-left ul li+li.selected {background-position: 0px -83px; height: 85px;}
+.menu-left ul li+li+li {background-position: 0px -168px; height: 125px;}
+.menu-left ul li+li+li:hover {background-position: 0px -168px; height: 125px;}
+.menu-left ul li+li+li.selected {background-position: 0px -168px; height: 125px;}
+.menu-left ul li+li+li+li {background-position: 0px -293px; height: 89px;}
+.menu-left ul li+li+li+li:hover {background-position: 0px -293px; height: 89px;}
+.menu-left ul li+li+li+li.selected {background-position: 0px -293px; height: 89px;}
+.container-right {display: block; float: left; width: 684px; height: 600px; background: url(bg-content-right.jpg) no-repeat;}
+.container-right .title {display: block; float: left; margin-top: 30px; text-align: center; width: 100%; color: #dc1313; font-size: 25px; font-weight: bold;}
+.container-right .f-title {background: url(line-title-head.png) center no-repeat; height: 16px; width: 100%; display: block; float: left; margin-top: 5px;}
+.container-right .content {display: block; float: left; margin-top: 10px; max-width: 100%; padding: 0px 45px; line-height: 20px; font-size: 14px;}
+.container-right .content span {font-weight: bold;}
+.container-right .content span.noted {color: red; font-style: italic;}
+.container-right .box-reward {display: block; float: left; width: 100%; padding: 0px 45px; margin-top: 20px;}
+.container-right .box-reward table {display: block; float: left; border: 1px solid #dcc6b4;}
+.container-right .box-reward table tr td.tbl-title {border: 1px solid #dcc6b4; background: #cd2a25; color: #fff; font-size: 16px; padding: 10px 25px; font-weight: bold; text-align: center}
+.container-right .box-reward table tr.character th{border: 1px solid #dcc6b4; background: #cd2a25; color: #fff; padding: 11px 33px; vertical-align: middle; font-size: 14px;}
+.container-right .box-reward table tr th{border: 1px solid #dcc6b4; background: #ffead9; color: #9e3936; padding: 10px 22px; vertical-align: middle; font-size: 14px;}
+.container-right .box-reward table tr td{border: 1px solid #dcc6b4; background: #ffead9; color: #9e3936; padding: 10px 22px; vertical-align: middle; font-size: 14px;}
+.reward {display: block; float: left; width: 100%; margin-top: 15px; text-align: center;}
+.reward a {background: url(../../static/images/popup/btn_get_item.png) no-repeat; color: #fff; text-decoration: none; padding: 9px 0px; display: block; font-size: 13px; margin: 0 auto; width: 90px;}
+.box-table {display: block; float: left; width: 340px; margin: 10px;}
+.bx-wrapper .bx-prev {background: url(pr.png) no-repeat !important; width: 21px !important; height: 46px !important; left: -20px !important;}
+.bx-wrapper .bx-next {background: url(n.png) no-repeat !important; width: 21px !important; height: 46px !important; right: -20px !important;}
+.cumulative-day {display: none; float: left; width: 100%; overflow: auto;height: 592px;}
+.cumulative-week {display: none; float: left; width: 100%; overflow: auto;height: 592px;}
+.share {display: none; float: left; width: 100%;overflow: auto;height: 592px;}
+.top-racing-day {display: none; float: left; width: 100%; overflow: auto;height: 592px;}
+.box-selected { display: block;}
+.rating {display: block; float: left; width: 100%; margin-top: 15px;}
+.rating a {background: url(rating.jpg) no-repeat; color: #fff; text-decoration: none; display: block; font-size: 13px; margin: 0 auto; width: 302px; height: 40px;}
+.status-fb {display: block; float: left; background: #fff; margin: 15px 45px 0px 45px; width: 80%; padding: 15px; font-size: 14px;}
+.box-reward .bx-wrapper .bx-pager {display: none;}
+.box-reward .bx-viewport {height: 316px !important;}
+.box-reward .bxslider li {width: 360px !important;}
+

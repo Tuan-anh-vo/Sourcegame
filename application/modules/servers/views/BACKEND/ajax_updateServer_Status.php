@@ -1,0 +1,1 @@
+<a href="javascript:void(0)" onclick="updateServer_Status(<?=$id?>,<?=$server_status?>,'<?=$module?>')" ><img alt="Checked item" src="<?=PATH_URL.'static/images/admin/icons/'?><?php ($server_status==0) ? print 'check_16x16.png' : print 'uncheck_16x16.png' ?>" /></a>

@@ -1,0 +1,32 @@
+.account{width: 617px; height: 370px; background: url(../images/account/bg-account.png) no-repeat top left;overflow: hidden; font-size: 13px;
+font-family: arial; }
+#tab-regis{width: 260px; float: left; margin: 80px 0 0 47px}
+#tab-login{width: 260px; float: left; margin: 80px 0 0 40px}
+.account .title{height: 60px;}
+.account .kq-rg, .kq-login{/*height: 30px;*/ line-height: 30px; text-align: left; color: red;font-size: 12px;}
+.account p{width: 222px; height: 35px; margin: 0 0 6px 0; line-height: 37px;font-size: 13px; border: 1px solid #3c3b51;}
+.account p span.ac-acc{background: url(../images/account/icon-text.png) no-repeat top left; width: 37px; height: 37px; display: block; float: left;}
+.account p span.ac-mail{background: url(../images/account/icon-text.png) no-repeat -74px 0px; width: 37px; height: 37px; display: block; float: left;}
+.account p span.ac-pass{background: url(../images/account/icon-text.png) no-repeat -37px 0px; width: 37px; height: 37px; display: block; float: left;}
+.account p span.ac-phone{background: url(../images/account/icon-text.png) no-repeat -111px 0px; width: 37px; height: 37px; display: block; float: left;}
+
+.account p input[type='text'],.account p input[type='password']{height: 35px; width: 177px; float: left; outline: none; padding: 0 3px; border: none;  color: #9c99c3; outline: none;background: none;}
+.account p input[type='text']:focus, .account p input[type='password']:focus{border: 1px solid #66afe9;}
+.account p input[type='checkbox']{height: 16px; width: 16px; float: left; line-height: 37px; background: none; margin: 5px 12px 0 0;}
+.account p label{float: left;}
+.account p a{margin-left: 20px; color: red;}
+.account p a:hover{color: #1611f8;}
+.account ul{height: 32px; width: 250px; text-align: center; margin: 45px 0 0 30px}
+.account ul li{float: left; padding: 0px 10px;}
+#fancybox-wrap{position: fixed !important; top: 10% !important;}
+.fancybox-wrap{position: fixed !important; top: 10% !important;}
+#fancybox-content{width: 617px !important; border: none !important;}
+#fancybox-close{background: none !important; right: 15px !important; top: 0 !important;}
+.btn_accou{
+	display: block; margin: 10px 0 0 20px; font-family: arial; font-size: 16px; text-transform: uppercase;
+	height: 41px; width: 161px; border: none; outline: none; font-weight: bold; color: #fff; background: #ff4b4b; cursor: pointer;
+}
+
+.bt_bl{
+	background: 	#0169AC;
+}

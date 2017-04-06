@@ -1,0 +1,181 @@
+﻿@import "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,vietnamese";
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,font,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead{margin:0;padding:0;border:0;outline:0;list-style:none;text-decoration:none;font-style:normal;font-weight:400}
+::after,::before{box-sizing:inherit}
+table{border-collapse:collapse}
+.clear{clear:both}
+body{background-color:#eee;overflow-x:hidden}
+#header em,#header i{list-style:none;text-decoration:none;font-style:normal;font-weight:400}
+::-webkit-input-placeholder{color:#2f2f2f}
+::-moz-placeholder{color:#2f2f2f}
+:-ms-input-placeholder{color:#2f2f2f}
+input:-moz-placeholder{color:#2f2f2f}
+.cg_input_taikhoan{margin:11px 0 8px;background:url(../images/icon_dangnhap.png) no-repeat 3%}
+.cg_input_matkhau{background:url(../images/icon_key.png) no-repeat 3%}
+.cg_btn_dang_nhap{width:240px;height:40px;text-transform:uppercase;text-align:center;line-height:40px;font-size:15px;color:#fff;background-color:#03a9f5;display:block;border-radius:3px;margin-top:11px}
+.cg_btn_dang_nhap:hover{background-color:#0287d1}
+.cg_text_login{display:block;font-size:13px;color:#505050;margin:9px 0 0 7px}
+.cg_link_dang_ky_nhanh{color:#0391ec}
+.cg_hoac{text-align:center;position:relative;font-size:13px;color:#686868;display:block;margin-top:10px}
+.cg_hoac:before{content:'';top:50%;width:80px;height:1px;border-bottom:dashed 1px #d7d7d7;position:absolute;right:16px}
+.cg_hoac:after{content:'';top:50%;width:80px;height:1px;border-bottom:dashed 1px #d7d7d7;position:absolute;left:16px}
+.cg_mang_xahoi{display:table;margin:0 auto;margin-top:7px}
+.cg_mang_xahoi li{float:left;margin:0 5px}
+.cg_check_box{display:block;margin-top:9px}
+.cg_quen_mk{float:right;color:#fe4201;font-size:13px}
+input[type=checkbox].css-checkbox{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0}
+input[type=checkbox].css-checkbox + label.css-label{padding-left:16px;height:12px;display:inline-block;line-height:12px;background-repeat:no-repeat;background-position:0 0;font-size:13px;vertical-align:middle;cursor:pointer;margin:3px 0 0 2px;font-size:13px;color:#2f2f2f}
+input[type=checkbox].css-checkbox:checked + label.css-label{background-position:0 -12px}
+.chrome-style{background-image:url(../images/icon_checkbox.png)}
+.cg_cac_game_dachoi{border:solid 1px #e5e5e5;position:absolute;top:31px;left:-1px;z-index:999;background-color:#fff;display:none}
+.cg_list_cac_game_dachoi{display:inline-block;width:200px;margin:15px 0 5px 10px}
+.cg_img_cac_game_dachoi{float:left!important}
+.cg_img_cac_game_dachoi img{width:45px;height:45px}
+.cg_tieude_btn_cac_game_dachoi{display:inline-block;float:left;margin-left:11px}
+.cg_tieude_cac_game_dachoi{font-size:13px;color:#2f2f2f;display:block;line-height:normal}
+.cg_btn_cac_game_dachoi{text-transform:uppercase;color:#fff;font-size:12px;width:77px;height:22px;line-height:22px;text-align:center;background-color:#1cb1f5;border-radius:3px;display:inline-block;margin-top:6px}
+.cg_btn_cac_game_dachoi:hover{background-color:#0287d1}
+.cg_btn_link_xemtatca_cacgame_dachoi{font-size:13px;text-align:right;border-top:solid 1px #e5e5e5;display:inline-block;width:100%;margin:20px 0 0;padding-right:18px;box-sizing:border-box}
+.cg_btn_link_xemtatca_cacgame_dachoi a{color:#3b3b3b}
+.cg_btn_link_xemtatca_cacgame_dachoi a:hover{color:#03a9f5}
+.cg_link_dangnhap_dangky li:last-child:hover .cg_cac_game_dachoi{display:block}
+.cg_wrapper{width:1170px;margin:0 auto;display:table;position:relative}
+.cg_topbar{width:100%;height:31px;background-color:#fafafa;border-bottom:solid 1px #e5e5e5;position:fixed;font-family:'Roboto',sans-serif;z-index:9999}
+.cg_danhsachgame_hotline{display:inline-block;float:left;margin:0}
+.cg_danhsachgame_hotline li{float:left;line-height:18px}
+.cg_danhsachgame_hotline li:hover .cg_list_danhsachgame{display:block}
+.cg_danhsachgame_hotline li i{float:left;display:inline-block;margin-top:8px}
+.cg_icon_danhsachgame{background:url(../images/cg_icon_danhsachgame.png) no-repeat;width:16px;height:16px;margin-top:1px}
+.cg_icon_hotline{background:url(../images/cg_icon_hotline.png) no-repeat;width:17px;height:17px}
+.cg_icon_danhsachgame,.cg_icon_hotline{margin-right:5px}
+.cg_text_danhsachgame{font-size:13px;color:#5b5b5b}
+.cg_text_hotline{font-size:16px;color:#0287d1;font-weight:700}
+.cg_hover_danhsachgame{position:relative;padding:0 15px 0 3px;box-sizing:border-box;margin-right:15px}
+.cg_hover_danhsachgame:before{content:'';position:absolute;top:8px;right:0;width:1px;border-left:dotted 1px #8e8e8e;height:16px}
+.cg_hover_danhsachgame:hover{background-color:#fff}
+.cg_hover_danhsachgame:hover:before{border:none}
+.cg_padding_list{padding-bottom:6px}
+.cg_list_danhsachgame{width:508px;height:348px;border:solid 1px #e5e5e5;padding:0 14px;box-sizing:border-box;display:none;position:absolute;top:31px;background-color:#fff;z-index:999;left:0}
+.cg_tab_content{display:none;font-family:'Open Sans',sans-serif;font-weight:400}
+#cg_tab_1{display:block}
+.cg_tabs_menu{display:table;margin:0 auto;border-bottom:solid 2px #eaeaea;height:37px;line-height:37px;width:480px}
+.cg_tabs_menu li{float:left;position:relative;margin:0 15px;height:37px;line-height:37px}
+.cg_tabs_menu li:first-child{margin-left:0}
+.cg_tabs_menu li:before{content:'';position:absolute;top:12px;right:-15px;border-right:dotted 1px #8e8e8e;height:16px;width:1px}
+.cg_tabs_menu li:last-child:before{border:none}
+.cg_tabs_menu li a{display:inline-block;color:#2f2f2f;text-transform:uppercase;font-size:13px;vertical-align:bottom}
+.cg_tabs_menu li:last-child a{border:none}
+.cg_tabs_menu li.cg_current a{color:#03a9f4;border-bottom:solid 2px #03a9f4}
+.cg_tabs_menu li a:hover{color:#03a9f4;border-bottom:solid 2px #03a9f4}
+.cg_cacgame_con{display:inline-block;float:left;width:145px;margin-right:20px;margin-top:9px}
+.cg_cacgame_con li{height:37px;line-height:37px;display:inline-block;width:145px;margin-bottom:14px}
+.cg_cacgame_con li a{display:inline-block;position:relative}
+.cg_cacgame_con li a:hover .cg_text_cacgame{color:#03a9f4}
+.cg_cacgame_con li:last-child{margin-bottom:0}
+.cg_cacgame_con li i{float:left;font-size:13px;color:#2f2f2f;margin-top:0!important}
+.cg_icon_cacgame{width:37px;height:37px;display:inline-block;overflow:hidden;margin-right:6px}
+.cg_icon_cacgame img{width:37px;height:37px}
+.cg_text_cacgame{width:102px;line-height:normal;position:absolute;left:43px;top:50%;transform:translate(0,-50%)}
+.cg_xoa_margin20{margin-right:0}
+.cg_text_chay_top:before{content:'';position:absolute;top:0;left:-12px;width:1px;height:16px;border-left:dotted 1px #8e8e8e}
+.cg_textmau_chuchay_top{color:#f57c00}
+.cg_link_dangnhap_dangky{display:inline-block;float:right;height:31px;line-height:31px}
+.cg_link_dangnhap_dangky li{float:left;padding:0 8px;border-left:solid 1px transparent;border-right:solid 1px transparent;position:relative}
+.cg_link_dangnhap_dangky li:before{width:1px;height:16px;border-right:dotted 1px #8e8e8e;content:'';position:absolute;top:7px;right:-2px}
+.cg_link_dangnhap_dangky li:last-child:before{border:none}
+.cg_link_dangnhap_dangky li:hover{background:#fff;border-left:solid 1px #e5e5e5;border-right:solid 1px #e5e5e5}
+.cg_link_dangnhap_dangky li:hover:before{border:none}
+.cg_link_dangnhap_dangky li i{float:left;color:#5b5b5b;font-size:13px}
+.cg_icon_tailauncher{background:url(../images/cg_icon_tailauncher.png) no-repeat;width:16px;height:16px;margin:8px 7px 0 0}
+.cg_icon_dangnhap{background:url(../images/cg_icon_dangnhap.png) no-repeat;width:16px;height:16px;margin:8px 7px 0 0}
+.cg_icon_dangky{background:url(../images/cg_icon_dangky.png) no-repeat;width:19px;height:17px;margin:8px 7px 0 0}
+.cg_icon_tinnhan{background:url(../images/cg_icon_tinnhan.png) no-repeat;width:17px;height:11px;margin:11px 7px 0 0}
+.cg_icon_game_dachoi{background:url(../images/cg_icon_game_dachoi.png) no-repeat;width:25px;height:17px;margin:8px 7px 0 0}
+.cg_icon_mui_ten_dangnhap{width:0;height:0;margin:14px 0 0 6px;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #6c6c6c}
+.cg_thong_bao_tinnhan{position:absolute;width:16px;height:16px;border-radius:50%;text-align:center;line-height:16px;display:inline-block;top:3px;left:14px;background-color:#ff2f13;color:#fff!important;font-size:11px!important}
+.cg_link_dangnhap_dangky li:first-child{background-color:#29b6f6}
+.cg_link_dangnhap_dangky li:first-child:hover{background-color:#0287d1}
+.cg_link_dangnhap_dangky li:first-child:before{border:none}
+.cg_link_dangnhap_dangky li:first-child i{color:#fff}
+.cg_icon_tailauncher{background:url(../images/cg_icon_tailauncher.png) no-repeat;width:16px;height:16px;margin:8px 7px 0 0}
+.cg_icon_dangnhap{background:url(../images/cg_icon_dangnhap.png) no-repeat;width:16px;height:16px;margin:8px 7px 0 0}
+.cg_icon_dangky{background:url(../images/cg_icon_dangky.png) no-repeat;width:19px;height:17px;margin:8px 7px 0 0}
+.cg_icon_tinnhan{background:url(../images/cg_icon_tinnhan.png) no-repeat;width:17px;height:11px;margin:11px 7px 0 0}
+.cg_icon_game_dachoi{background:url(../images/cg_icon_game_dachoi.png) no-repeat;width:25px;height:17px;margin:8px 7px 0 0}
+.cg_icon_mui_ten_dangnhap{width:0;height:0;margin:14px 0 0 6px;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #6c6c6c}
+.cg_thong_bao_tinnhan{position:absolute;width:16px;height:16px;border-radius:50%;text-align:center;line-height:16px;display:inline-block;top:3px;left:14px;background-color:#ff2f13;color:#fff!important;font-size:11px!important}
+.cg_cac_link_dangnhap{position:absolute;top:31px;left:-1px;z-index:999;border:solid 1px #e5e5e5;background-color:#fff;width:180px;padding-top:10px;box-sizing:border-box;display:none}
+.cg_cac_link_dangnhap a{padding:0 0 0 17px;display:block;font-size:13px;color:#2f2f2f;box-sizing:border-box;border-top:solid 1px #e5e5e5}
+.cg_cac_link_dangnhap a:hover{background-color:#e5e5e5}
+.cg_cac_link_dangnhap a.cg_link_thongtin_dangxuat_dangnhap{border-top:none}
+.cg_link_dangnhap_dangky li:nth-child(2):hover .cg_cac_link_dangnhap{display:block}
+.cg_tab_danhnhap_dangky{display:inline-block;width:355px;border-radius:3px;border:solid 1px #e5e5e5;background-color:#fff;}
+.cg_tab_danhnhap_dangky:before{content:'';position:absolute;top:0;left:0;width:355px;height:58px;border-bottom:solid 1px #dadada;background-color:#eee}
+.cg_tab_content_login{display:none;padding:20px 0;box-sizing:border-box;}
+#cg_tab1_login{display:block}
+.cg_tabs_menu_login{display:inline-block;position:relative;margin:20px 0 0 20px}
+.cg_tab_login{position:relative}
+.cg_tabs_menu_login li{float:left;text-align:center;width:110px;border-top:solid 1px transparent;border-left:solid 1px transparent;border-right:solid 1px transparent;height:38px;line-height:38px}
+.cg_tabs_menu_login li a{color:#333;font-size:16px;font-weight:300;display:inline-block;width:100%}
+.cg_tabs_menu_login li.cg_current_login{background-color:#fff;border-top:solid 1px #dadada;border-left:solid 1px #dadada;border-right:solid 1px #dadada}
+.cg_tabs_menu_login li.cg_current_login a{color:#f00;}
+.icon_logotab_login{position:absolute;top:26px;right:22px}
+.cg_popup_dangky{position:absolute;top:50%;left:50%;width:355px;margin-left:-177.5px;border:solid 1px #e5e5e5;border-radius:3px;background-color:#fff;margin-top:-225.5px}
+.cg_tieude_popup_dangky{text-align:center;color:#333;font-weight:300;font-size:18px;display:block;border-bottom:solid 1px #e5e5e5;background-color:#eee;height:57px;line-height:57px;position:relative;margin-bottom:28px}
+.cg_close_popup_dangky{position:absolute;top:20px;right:20px;background:url(../images/cg_btn_close_popup.png) no-repeat;width:14px;height:14px}
+.cg_close_popup_dangky:hover{background:url(../images/cg_btn_close_popup.png) 0 bottom no-repeat}
+.cg_css_label_popup_dangky{display:block;font-size:13px;color:#2f2f2f;margin-bottom:3px}
+.cg_css_checkbox_popup_dangky,.cg_css_checkbox_xacnhan_popup_dangky{width:280px;height:33px;border:solid 1px #dadada;margin-bottom:15px;outline:none;padding-left:10px;box-sizing:border-box;font-size:12px;color:#787878}
+.cg_css_checkbox_popup_dangky::-webkit-input-placeholder{color:#787878}
+.cg_css_checkbox_popup_dangky::-moz-placeholder{color:#787878}
+.cg_css_checkbox_popup_dangky:-ms-input-placeholder{color:#787878}
+.cg_css_checkbox_popup_dangky:-moz-placeholder{color:#787878}
+.cg_css_checkbox_xacnhan_popup_dangky{width:128px;float:left;margin-bottom:0}
+.cg_ma_capcha_popup_dangky{border:solid 1px #dadada;display:inline-block;text-align:center;font-size:20px;font-weight:700;color:#2f2f2f;width:97px;height:31px;line-height:31px;float:left;margin-left:9px}
+.cg_btn_reload_popup_dangky{float:left;margin:5px 0 0 20px}
+.css_label_dongy{font-size:13px;color:#2f2f2f}
+.cg_text_mau_dongy,.cg_text_mau_dangky{color:#f57b00}
+.cg_text_mau_dangky{margin-left:16px}
+.cg_btn_popup_dangky{width:120px;height:35px;background-color:#03b4f5;text-align:center;color:#fff;font-size:14px;line-height:35px;display:block;float:left;text-transform:uppercase;border-radius:3px;margin-bottom:16px}
+.cg_btn_popup_dangky:hover{background-color:#0287d1}
+.cg_btn_popup_boqua{width:120px;height:35px;text-align:center;color:#f57b00;font-size:14px;line-height:35px;display:block;float:left;text-transform:uppercase;border-radius:3px;margin-bottom:16px}
+input[type=checkbox].css_checkbox_dongy{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0}
+input[type=checkbox].css_checkbox_dongy + label.css_label_dongy{padding-left:16px;height:12px;display:inline-block;line-height:12px;background-repeat:no-repeat;background-position:0 0;font-size:13px;vertical-align:middle;cursor:pointer;margin:19px 0 20px 2px;font-size:13px;color:#2f2f2f}
+input[type=checkbox].css_checkbox_dongy:checked + label.css_label_dongy{background-position:0 -12px}
+.chrome_style_dongy{background-image:url(../images/icon_checkbox.png)}
+.cg_all_form_popup_dangky{display:table;margin:0 auto}
+.cg_popup_dangnhap{position:absolute;top:50%;left:50%;width:351px;margin-left:-175.5px;border:solid 1px #e5e5e5;border-radius:3px;background-color:#fff;margin-top:-186px}
+.cg_all_form_popup_dangnhap{display:table;margin:0 auto;width:280px}
+.cg_social_popup_dangky{font-size:13px;color:#2f2f2f;display:inline-block;line-height:30px;margin-bottom:30px}
+.cg_text_social_popup_dangky{float:left}
+.cg_icon_face_popup_dangnhap{float:left;margin:0 11px 0 9px}
+.cg_icon_google_popup_dangnhap{float:left}
+input[type=checkbox].css_checkbox_dangky{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0}
+input[type=checkbox].css_checkbox_dangky + label.css_label_dangky{padding-left:16px;height:12px;display:inline-block;line-height:12px;background-repeat:no-repeat;background-position:0 0;font-size:13px;vertical-align:middle;cursor:pointer;margin:0 0 23px 2px;font-size:13px;color:#2f2f2f}
+input[type=checkbox].css_checkbox_dangky:checked + label.css_label_dangky{background-position:0 -12px}
+.chrome_style_dangky{background-image:url(../images/icon_checkbox.png)}
+.cg_nenden_popup,.cg_nenden2_popup{width:100%;height:100%;background:rgba(0,0,0,0.6);position:fixed;top:0;left:0;z-index:199;display:none}
+.cg_text_chay_top{position:absolute;top:9px;left:275px;font-size:13px;color:#333;height:16px;line-height:16px;width:355px}
+.cg_text_chay_top:before{content:'';position:absolute;top:0;left:-12px;width:1px;height:16px;border-left:dotted 1px #8e8e8e}
+.cg_textmau_chuchay_top{color:#f57c00}
+@media screen and (max-width: 1200px) {
+.cg_wrapper{width:960px}
+.cg_danhsachgame_hotline{margin:0}
+.cg_link_dangnhap_dangky li:first-child{display:none}
+.cg_text_chay_top{width:255px}
+}
+.cg_danhsach_tinnhan{position:absolute;top:31px;left:-1px;z-index:999;border:solid 1px #e5e5e5;width:244px;background-color:#fff;padding-top:20px;box-sizing:border-box;display:none}
+.cg_danhsach_tinnhan a.cg_link_doc_tinnhan{color:#2f2f2f;font-size:13px;margin:0 20px;display:block;line-height:18px;margin-bottom:10px}
+.cg_danhsach_tinnhan a.cg_link_doc_tinnhan:hover{color:#03a9f5}
+.cg_link_dangnhap_dangky li:nth-child(3):hover .cg_danhsach_tinnhan{display:block}
+.cg_cac_game_dachoi{border:solid 1px #e5e5e5;position:absolute;top:31px;left:-1px;z-index:999;background-color:#fff;display:none}
+.cg_list_cac_game_dachoi{display:inline-block;width:200px;margin:15px 0 5px 10px}
+.cg_img_cac_game_dachoi{float:left!important}
+.cg_img_cac_game_dachoi img{width:45px;height:45px}
+.cg_tieude_btn_cac_game_dachoi{display:inline-block;float:left;margin-left:11px}
+.cg_tieude_cac_game_dachoi{font-size:13px;color:#2f2f2f;display:block;line-height:normal}
+.cg_btn_cac_game_dachoi{text-transform:uppercase;color:#fff;font-size:12px;width:77px;height:22px;line-height:22px;text-align:center;background-color:#1cb1f5;border-radius:3px;display:inline-block;margin-top:6px}
+.cg_btn_cac_game_dachoi:hover{background-color:#0287d1}
+.cg_btn_link_xemtatca_cacgame_dachoi{font-size:13px;text-align:right;border-top:solid 1px #e5e5e5;display:inline-block;width:100%;margin:20px 0 0;padding-right:18px;box-sizing:border-box}
+.cg_btn_link_xemtatca_cacgame_dachoi a{color:#3b3b3b}
+.cg_btn_link_xemtatca_cacgame_dachoi a:hover{color:#03a9f5}
+.cg_link_dangnhap_dangky li:last-child:hover .cg_cac_game_dachoi{display:block}

@@ -1,0 +1,145 @@
+a,p{font-family: Tahoma;text-decoration: none}
+
+.wr_vongquay{position: relative;width: 492px;height: 598px;background: url(../images/popup_vongquay/bg2.png)no-repeat;position: relative;float: left;}
+.vongquay{height:535px;padding: 63px 0px 0px 39px; }
+body{
+	outline: none;
+}
+
+.logged{float: right;text-align: right;margin-right:20px;margin-top: 40px }
+.logged p{font-size: 13px;color: #0051FF;line-height: 20px;}
+.logged a{color: #eda952;font-size: 13px;line-height: 20px;}
+.logged a:hover{color: #ffee00;}
+
+.fl_vongquay{width: 336px;height: 336px;background: url(../images/popup_vongquay/vongquay2.png)no-repeat; }
+.wap_vl_ap{
+	width: 336px;height: 336px;position: absolute;bottom: 0px;left: 39px;
+	overflow: hidden;
+}
+a.close{display: block;width: 28px;height: 28px;background: url(../images/popup_vongquay/x.png)no-repeat;position: absolute;right:0px;top:30px;}
+
+a.luotquay{background: url(../images/popup_vongquay/luotquay.png)no-repeat;position: absolute;width: 168px;height: 42px;top:267px;right:150px;}
+a.luotquay:hover{background: url(../images/popup_vongquay/luotquay_hover.png)no-repeat;}
+
+a.napthe{background: url(../images/popup_vongquay/napthe.png)no-repeat;position: absolute;width: 140px;height: 60px;top:266px;right:5px;}
+a.napthe:hover{background: url(../images/popup_vongquay/napthe_hover.png)no-repeat;}
+
+.tab{position: absolute;top:312px;right: 150px;background: url(../images/popup_vongquay/tab.png)no-repeat;width: 168px;height: 33px;}
+.tab span{width: 52px;display: inline-block;vertical-align: top;zoom: 1; /* Fix for IE7 */*display: inline; /* Fix for IE7 */;height: 33px;line-height: 33px;color: #b92121;font-size: 18px;font-family: Tahoma;text-indent: 4px}
+.tab span.first{text-indent: 10px}
+
+.thele{width: 200px;height: 185px;position: absolute;bottom: 37px;right: 215px;}
+.thele p{color: #d9ceca;font-size: 11px;line-height: 13px;padding-left:  15px}
+.thele p.title{margin-top: 10px;background: url(../images/popup_vongquay/sq.png)no-repeat left center;padding-left: 15px;}
+
+.phanthuong{width: 169px;height: 215px;position: absolute;bottom: 0px;right: 4px;}
+.phanthuong p{color: #d9ceca;font-size: 11px;line-height: 13px;}
+.phanthuong p:first-child{height: 30px;border-bottom: 1px solid #5f534f;line-height: 30px;margin-bottom: 5px;}
+.phanthuong p span{width: 30px;display: inline-block;vertical-align: top;zoom: 1; /* Fix for IE7 */*display: inline; /* Fix for IE7 */text-align: center;}
+
+a.ds_trungthuong{display: block;position: absolute;bottom: 7px;right: 205px;width: 238px;height: 28px;background: url(../images/popup_vongquay/bg_dstrungthuong.png)no-repeat;color: #be6940}
+a.ds_trungthuong:hover{background:url(../images/popup_vongquay/bg_dstrungthuong_hv.png)no-repeat}
+
+
+/*----------------------------------------------------------------------------------SELECT BOX----------------------------------------------------------------------------------*/
+
+.selectbox{position: absolute;width: 143px;height: 37px;top:260px;left: 265px;z-index: 200}
+.selectbox select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+
+.selectbox .fancy-select div.trigger{
+	height: 37px;
+	outline: none;
+	text-align: center;
+	text-transform: normal;
+	color: #eda952;
+	background: none;
+	border: none;
+	height: 37px;
+	width: 145px;
+	font-size: 12px;
+	font-family: Tahoma;
+	font-weight:normal;
+	padding: 0;
+	box-shadow: none;
+	line-height: 37px;
+}
+.selectbox .fancy-select div.trigger:after{display: none}
+.selectbox .fancy-select div.trigger.open{background: none;border: none;border-radius: 0px;color: #eda952}
+.selectbox .fancy-select select:focus + div.trigger{box-shadow: none}
+.selectbox .fancy-select ul.options{
+	list-style: none;
+	margin: 0;
+	position: absolute;
+	top: 25px;
+	left: -20px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 50;
+	max-height: inherit;
+	overflow: auto;
+	background: #5b2e27;
+	border-radius: 0px;
+	border-top:none;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	min-width: 160px;
+}
+.selectbox .fancy-select ul.options.open{top:37px;left:-20px;}
+.selectbox .fancy-select ul.options li.selected {
+background: url(../images/popup_vongquay/hv.png)no-repeat 9px 18px;
+background-color: #4a251f;
+color: #eecb77;
+}
+.selectbox .fancy-select ul.options li.hover {
+background: url(../images/popup_vongquay/hv.png)no-repeat 9px 18px;
+background-color: #4a251f;
+color: #eecb77;
+}
+.selectbox .fancy-select ul.options li {
+height: 20px;line-height:20px;
+color: #eecb77;
+cursor: pointer;
+white-space: nowrap;
+border-bottom: 1px solid #673a32;
+text-indent: 26px;
+background: url(../images/popup_vongquay/normal.png)no-repeat 12px 18px;
+text-transform:none;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: normal;
+
+}
+
+.kim-chi {
+  background: url("../images/popup_vongquay/trucquay.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 118px;
+  left: 158px;
+  position: absolute;
+  top: 362px;
+  width: 96px;
+  display: 	block;	
+}
+
+
+.kim-chi{
+	transition:All 1s ease;
+	-webkit-transition:All 1s ease;
+	-moz-transition:All 1s ease;
+	-o-transition:All 1s ease;
+	transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+	-webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+	-moz-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+	-o-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+	-ms-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+}
+.xoay{
+	transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+	-webkit-transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+	-moz-transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+	-o-transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+	-ms-transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+}
+
+.fancy-select ul{
+	height: 260px;
+	overflow: auto;
+}

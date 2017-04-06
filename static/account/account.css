@@ -1,0 +1,33 @@
+.account_wrapper{background:url(dangki_bg.jpg) no-repeat top center;width:560px;height:378px;font-family:arial}
+.account_wrapper .dangki_tab{width:280px;height:288px;float:left;}
+.account_wrapper .dangki_tab form > span{height: 20px;width:100%;text-align: center;display:block;font-size:13px;color:#f00;line-height:20px;margin:54px 0 0;}
+.account_wrapper .dangki_tab form > div{width:205px;/*height:30px;*/margin:0 auto;margin-bottom:24px;}
+.account_wrapper .dangki_tab form > div:nth-child(1){}/*tai khoan*/
+.account_wrapper .dangki_tab form > div:nth-child(2){}/*mat khau*/
+.account_wrapper .dangki_tab form > div:nth-child(3){}/*mail*/
+.account_wrapper .dangki_tab form > div:nth-child(4){}/*dien thoai*/
+.account_wrapper .dangki_tab form > div.taikhoan{}
+.account_wrapper .dangki_tab form > div > input{background:none;border:none;padding: 11px 0 8px 35px;width: 169px;}
+.account_wrapper .dangki_tab form > a{background:url(btn_dangki.png) no-repeat top center;display:block;width:173px;height:50px;margin:0 auto;}
+.account_wrapper .dangki_tab form > a:hover{background-position: 0 -51px;}
+
+.account_wrapper .dangnhap_tab{width:278px;height:288px;float:left;}
+.account_wrapper .dangnhap_tab form > span{height: 20px;width:100%;text-align: center;display:block;font-size: 13px;color:#f00;line-height:20px;margin:54px 0 0;}
+.account_wrapper .dangnhap_tab form > div{/*background:url(dk_input.png) no-repeat;*/width:205px;/*height:30px;*/margin:0 auto;margin-bottom:24px;}
+.account_wrapper .dangnhap_tab form > div:nth-child(1){}/*tai khoan*/
+.account_wrapper .dangnhap_tab form > div:nth-child(2){}/*mat khau*/
+.account_wrapper .dangnhap_tab form > div > input{background:none;border:none;padding: 11px 0 8px 35px;width: 169px;}
+.account_wrapper .dangnhap_tab form > a{background:url(btn_dangnhap.png) no-repeat top center;display:block;width:173px;height:50px;margin:0 auto;}
+.account_wrapper .dangnhap_tab form > a:hover{background-position: 0 -51px;}
+.account_wrapper .dangnhap_tab p.remember{color:#7b5434;text-align:center;margin:0 0 6px 0;}
+.account_wrapper .dangnhap_tab p.remember span{font-size:13px;}
+.account_wrapper .dangnhap_tab p.remember a{font-size:13px;text-decoration: none;color:inherit;}
+.account_wrapper .dangnhap_tab p.other_acc{color:#bc2b26;font-size: 13px;text-align: center;margin: 6px 0 0;width:100%;float:left;}
+.account_wrapper .dangnhap_tab p.other_acc a{background:url(icon_social.png) no-repeat;width:26px;height:26px;display:inline-block;}
+.account_wrapper .dangnhap_tab p.other_acc a:nth-child(1){}
+.account_wrapper .dangnhap_tab p.other_acc a:nth-child(2){background-position:-37px 0;margin:0 10px;}
+.account_wrapper .dangnhap_tab p.other_acc a:nth-child(3){background-position:-73px 0;}
+
+.account_wrapper .dangnhap_tab p.other_acc a:nth-child(1):hover{background-position:0 -41px;}
+.account_wrapper .dangnhap_tab p.other_acc a:nth-child(2):hover{background-position:-37px -41px;}
+.account_wrapper .dangnhap_tab p.other_acc a:nth-child(3):hover{background-position:-73px -41px;}

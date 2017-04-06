@@ -1,0 +1,11 @@
+<?php $route['su-kien'] ="content/listDetail";
+$route['su-kien/(:any)'] ="content/detail/$1";
+$route['tin-tuc'] ="content/listDetail";
+$route['tin-tuc/(:any)'] ="content/detail/$1";
+$route['bi-kiep'] ="content/listDetail";
+$route['bi-kiep/(:any)'] ="content/detail/$1";
+$route['dac-sac'] ="content/listDetail";
+$route['dac-sac/(:any)'] ="content/detail/$1";
+$route['tan-thu'] ="content/listDetail";
+$route['tan-thu/(:any)'] ="content/detail/$1";
+ ?>

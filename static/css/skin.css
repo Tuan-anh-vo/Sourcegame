@@ -1,0 +1,5754 @@
+#thewindowbackground {
+    background-color: #000;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    z-index: 990;
+    width: auto;
+    position: absolute;
+    display: none;
+    filter: alpha(opacity=80)
+}
+#ad_zone_TV {
+    z-index: 1000
+}
+#bannerPopup {
+    margin: auto;
+    width: 660px;
+    height: 462px;
+    z-index: 1000;
+    position: absolute;
+    display: none;
+    background-color: #000
+}
+#btClose {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 101;
+    cursor: pointer
+}
+
+#bannerPopupBottom {
+    width: 300px!important;
+    height: 126px!important;
+    z-index: 1000!important;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    display: none;
+    overflow: hidden;
+    padding-top: 26px;
+    border: 0!important
+}
+#bannerPopupBottom img {
+    border: 1px solid #999
+}
+#btCloseBottom {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 991;
+    cursor: pointer
+}
+#boxFlashAds {
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    left: -9999em;
+    top: -9999em
+}
+.fixedBanner {
+    position: fixed!important
+}
+form.CheckClose {
+    display: block;
+    float: left;
+    color: #9e9e9e;
+    font-size: 11px;
+    white-space: nowrap
+}
+
+.PopupBG {
+    background: #000
+}
+#bannerPopup img {
+    padding: 32px 0 0 5px
+}
+#bannerPopup embed {
+    margin: 32px 0 0 5px
+}
+ul.Disc li {
+    list-style-type: disc;
+    margin-bottom: 0;
+    padding: 0 0 0 5px;
+    text-align: justify
+}
+.Rating {
+    width: 150px;
+    height: 90px;
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 1000
+}
+.MRating {
+    width: 83px;
+    height: 40px;
+    display: none;
+    overflow: hidden;
+    text-indent: -9999px;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    z-index: 1000
+}
+@media screen and (max-width: 768px) {
+    .MRating {
+        display: block
+    }
+}
+@media screen and (max-width: 1025px) {
+    .Rating_margintop {
+        top: 170px
+    }
+}
+
+.Wrapper {
+    overflow: visible;
+    height: 1%
+}
+html>body .Wrapper {
+    overflow: hidden;
+    height: auto
+}
+.breadcrumb ul li,
+ul li span {
+    white-space: nowrap
+}
+#thewindowbackground {
+    background-color: #000;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    z-index: 990;
+    width: auto;
+    position: absolute;
+    display: none;
+    filter: alpha(opacity=80)
+}
+#ad_zone_TV {
+    z-index: 1000
+}
+#bannerPopup {
+    margin: auto;
+    width: 660px;
+    height: 462px;
+    z-index: 1000;
+    position: absolute;
+    display: none;
+    background-color: #000
+}
+#btClose {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 101;
+    cursor: pointer
+}
+a#btClose:link,
+a#btClose:visited {
+    width: 71px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-indent: -9999px
+}
+a#btClose:hover {
+    background-position: 0 -32px
+}
+a#btCloseBottom:link,
+a#btCloseBottom:visited {
+    background: #000;
+    width: 23px;
+    height: 23px;
+    display: block;
+    position: absolute;
+    top: -3px;
+    right: -2px;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold
+}
+#bannerPopupBottom {
+    width: 300px!important;
+    height: 100px!important;
+    z-index: 1000!important;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    display: none;
+    overflow: hidden;
+    padding-top: 26px;
+    border: 0!important
+}
+#bannerPopupBottom img {
+    border: 1px solid #999
+}
+#btCloseBottom {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 991;
+    cursor: pointer
+}
+#boxFlashAds {
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    left: -9999em;
+    top: -9999em
+}
+.fixedBanner {
+    position: fixed!important
+}
+form.CheckClose {
+    display: block;
+    float: left;
+    color: #9e9e9e;
+    font-size: 11px
+}
+#bannerPopup .OptionClose {
+    display: block;
+    height: 30px;
+    width: 345px;
+    float: right;
+    padding-top: 3px
+}
+a.PopupBtnClose:link,
+a.PopupBtnClose:visited {
+    width: 51px;
+    height: 16px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-indent: -9999px;
+    float: right;
+    margin: 4px 5px 0 0
+}
+a.PopupBtnClose:hover {
+    background-position: 0 -16px
+}
+.PopupBG {
+    background: #000
+}
+#bannerPopup img {
+    padding: 32px 0 0 5px
+}
+#bannerPopup embed {
+    margin: 32px 0 0 5px
+}
+ul.Disc li {
+    list-style-type: disc;
+    margin-bottom: 0;
+    padding: 0 0 0 5px;
+    text-align: justify
+}
+#topbar {
+    height: 30px;
+    display: block;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+    position: relative;
+    z-index: 800;
+    overflow: hidden
+}
+#Topbar_Forum {
+    height: 40px;
+    display: block;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+    position: relative;
+    z-index: 800
+}
+body {
+    padding: 0;
+    margin: 0
+}
+img {
+    border: 0
+}
+h5,
+h6,
+form,
+ul,
+ul li,
+ol,
+ol li,
+dl,
+dl dt,
+dl dd {
+    margin: 0;
+    padding: 0
+}
+
+.BoxLeft a:link {
+    width: 216px;
+    text-decoration: none
+}
+.StyleLink {
+    color: #737373;
+    text-decoration: none;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 13px;
+    float: right
+}
+.StyleLink a:link,
+.StyleLink a:visited,
+.StyleLink a:active {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px
+}
+.StyleLink a:hover {
+    color: #000;
+    text-decoration: underline
+}
+#gameBanner {
+    width: 1000px;
+    margin: 0 auto;
+    z-index: 10;
+    position: relative
+}
+.HoverBanner {
+    height: 150px;
+    width: 500px;
+    position: relative;
+    overflow: hidden
+}
+.SBanner {
+    float: left;
+    padding: 0
+}
+.BBanner {
+    display: none;
+    height: 0
+}
+.BigBanner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10000
+}
+.TBoxBanner {
+    width: 1000px;
+    display: block;
+    height: 40px;
+    float: left;
+    overflow: visible
+}
+.Detect {
+    background: none repeat scroll 0 0 transparent;
+    border: 0;
+    height: 540px;
+    padding: 0;
+    width: 848px;
+    position: absolute;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    display: none
+}
+
+#advTopBar1_temp {
+    z-index: 1000;
+    display: none
+}
+.Zone {
+    z-index: 10;
+    display: none
+}
+.Left .LeftWrapper .PlayNow,
+.Left .LeftWrapper .DangkyNapthe a.QuickRegister,
+.Left .LeftWrapper .DangkyNapthe .NapThe,
+.Login .Profile .BtnMayChu,
+.Login .BtSubmit {
+    display: block;
+    text-indent: -9999px
+}
+
+.sprites-banner-nav-hov {
+    background-position: 0 0;
+    height: 19px;
+    width: 20px
+}
+.sprites-banner-nav-nor {
+    background-position: 0 -19px;
+    height: 19px;
+    width: 20px
+}
+.sprites-chon-may-chu-hov {
+    background-position: 0 -38px;
+    height: 70px;
+    width: 80px
+}
+.sprites-chon-may-chu-nor {
+    background-position: 0 -108px;
+    height: 70px;
+    width: 80px
+}
+.sprites-cn1-hov {
+    background-position: 0 -178px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn1-nor {
+    background-position: 0 -356px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn1-off {
+    background-position: 0 -534px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-hov {
+    background-position: 0 -712px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-nor {
+    background-position: 0 -890px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-off {
+    background-position: 0 -1068px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-hov {
+    background-position: 0 -1246px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-nor {
+    background-position: 0 -1424px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-off {
+    background-position: 0 -1602px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-hov {
+    background-position: 0 -1780px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-nor {
+    background-position: 0 -1958px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-off {
+    background-position: 0 -2136px;
+    height: 178px;
+    width: 105px
+}
+.sprites-control-1-hov {
+    background-position: 0 -2314px;
+    height: 45px;
+    width: 81px
+}
+.sprites-control-1-nor {
+    background-position: 0 -2359px;
+    height: 45px;
+    width: 81px
+}
+.sprites-control-2-hov {
+    background-position: 0 -2404px;
+    height: 45px;
+    width: 88px
+}
+.sprites-control-2-nor {
+    background-position: 0 -2449px;
+    height: 45px;
+    width: 88px
+}
+.sprites-control-3-hov {
+    background-position: 0 -2494px;
+    height: 45px;
+    width: 73px
+}
+.sprites-control-3-nor {
+    background-position: 0 -2539px;
+    height: 45px;
+    width: 73px
+}
+.sprites-control-4-hov {
+    background-position: 0 -2584px;
+    height: 45px;
+    width: 85px
+}
+.sprites-control-4-nor {
+    background-position: 0 -2629px;
+    height: 45px;
+    width: 85px
+}
+.sprites-dang-ky-nhanh-hov {
+    background-position: 0 -2674px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-ky-nhanh-nor {
+    background-position: 0 -2714px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-ky-nhanh-off {
+    background-position: 0 -2754px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-nhap-hov {
+    background-position: 0 -2794px;
+    height: 70px;
+    width: 80px
+}
+.sprites-dang-nhap-nor {
+    background-position: 0 -2864px;
+    height: 70px;
+    width: 80px
+}
+.sprites-download-hov {
+    background-position: 0 -2934px;
+    height: 20px;
+    width: 23px
+}
+.sprites-download-nor {
+    background-position: 0 -2954px;
+    height: 20px;
+    width: 23px
+}
+.sprites-hang-1 {
+    background-position: 0 -2974px;
+    height: 16px;
+    width: 20px
+}
+.sprites-hang-2 {
+    background-position: 0 -2990px;
+    height: 16px;
+    width: 20px
+}
+.sprites-hang-3 {
+    background-position: 0 -3006px;
+    height: 16px;
+    width: 20px
+}
+.sprites-holine {
+    background-position: 0 -3022px;
+    height: 83px;
+    width: 271px
+}
+.sprites-hot-line-hov {
+    background-position: 0 -3105px;
+    height: 49px;
+    width: 280px
+}
+.sprites-hot-line-nor {
+    background-position: 0 -3154px;
+    height: 49px;
+    width: 280px
+}
+.sprites-icon-hot {
+    background-position: 0 -3203px;
+    height: 42px;
+    width: 42px
+}
+.sprites-icon-new {
+    background-position: 0 -3245px;
+    height: 42px;
+    width: 42px
+}
+.sprites-icon-play {
+    background-position: 0 -3287px;
+    height: 55px;
+    width: 46px
+}
+.sprites-logo-vng {
+    background-position: 0 -3342px;
+    height: 63px;
+    width: 42px
+}
+.sprites-may-chu-hov {
+    background-position: 0 -3405px;
+    height: 47px;
+    width: 121px
+}
+.sprites-may-chu-nor {
+    background-position: 0 -3452px;
+    height: 47px;
+    width: 121px
+}
+.sprites-may-chu-off {
+    background-position: 0 -3499px;
+    height: 47px;
+    width: 121px
+}
+.sprites-mnu-side-hov {
+    background-position: 0 -3546px;
+    height: 51px;
+    width: 270px
+}
+.sprites-mnu-side-nor {
+    background-position: 0 -3597px;
+    height: 51px;
+    width: 270px
+}
+.sprites-mnu-side-sub {
+    background-position: 0 -3648px;
+    height: 50px;
+    width: 270px
+}
+.sprites-more-hov {
+    background-position: 0 -3698px;
+    height: 19px;
+    width: 20px
+}
+.sprites-more-nor {
+    background-position: 0 -3717px;
+    height: 19px;
+    width: 20px
+}
+.sprites-more-off {
+    background-position: 0 -3736px;
+    height: 40px;
+    width: 210px
+}
+.sprites-nap-the-hov {
+    background-position: 0 -3776px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nap-the-nor {
+    background-position: 0 -3816px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nap-the-off {
+    background-position: 0 -3856px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nav-1-hov {
+    background-position: 0 -3896px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-1-nor {
+    background-position: 0 -3975px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-1-off {
+    background-position: 0 -4054px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-2-hov {
+    background-position: 0 -4133px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-2-nor {
+    background-position: 0 -4212px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-2-off {
+    background-position: 0 -4291px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-3-hov {
+    background-position: 0 -4370px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-3-nor {
+    background-position: 0 -4449px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-3-off {
+    background-position: 0 -4528px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-4-hov {
+    background-position: 0 -4607px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-4-nor {
+    background-position: 0 -4686px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-4-off {
+    background-position: 0 -4765px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-5-hov {
+    background-position: 0 -4844px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-5-nor {
+    background-position: 0 -4923px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-5-off {
+    background-position: 0 -5002px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-6-hov {
+    background-position: 0 -5081px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-6-nor {
+    background-position: 0 -5160px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-6-off {
+    background-position: 0 -5239px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-7-hov {
+    background-position: 0 -5318px;
+    height: 79px;
+    width: 80px
+}
+.sprites-nav-7-nor {
+    background-position: 0 -5397px;
+    height: 79px;
+    width: 80px
+}
+.sprites-nav-7-off {
+    background-position: 0 -5476px;
+    height: 79px;
+    width: 80px
+}
+.sprites-new-server-hov {
+    background-position: 0 -5555px;
+    height: 61px;
+    width: 251px
+}
+.sprites-new-server-nor {
+    background-position: 0 -5616px;
+    height: 61px;
+    width: 251px
+}
+.sprites-ranking-hov {
+    background-position: 0 -5677px;
+    height: 25px;
+    width: 30px
+}
+.sprites-ranking-nor {
+    background-position: 0 -5702px;
+    height: 25px;
+    width: 30px
+}
+.sprites-search-hov {
+    background-position: 0 -5727px;
+    height: 25px;
+    width: 30px
+}
+.sprites-search-nor {
+    background-position: 0 -5752px;
+    height: 25px;
+    width: 30px
+}
+.sprites-server-nav-left-hov {
+    background-position: 0 -5777px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-left-nor {
+    background-position: 0 -5807px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-right-hov {
+    background-position: 0 -5837px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-right-nor {
+    background-position: 0 -5867px;
+    height: 30px;
+    width: 30px
+}
+.sprites-thamgia-hov {
+    background-position: 0 -5897px;
+    height: 20px;
+    width: 13px
+}
+.sprites-thamgia-nor {
+    background-position: 0 -5917px;
+    height: 20px;
+    width: 13px
+}
+.sprites-tim-hov {
+    background-position: 0 -5937px;
+    height: 30px;
+    width: 80px
+}
+.sprites-tim-nor {
+    background-position: 0 -5967px;
+    height: 30px;
+    width: 80px
+}
+.sprites-top-hov {
+    background-position: 0 -5997px;
+    height: 47px;
+    width: 46px
+}
+.sprites-top-nor {
+    background-position: 0 -6044px;
+    height: 47px;
+    width: 46px
+}
+.sprites-xem-chi-tiet-hov {
+    background-position: 0 -6091px;
+    height: 30px;
+    width: 96px
+}
+.sprites-xem-chi-tiet-nor {
+    background-position: 0 -6121px;
+    height: 30px;
+    width: 96px
+}
+.sprites-xem-them-hov {
+    background-position: 0 -6151px;
+    height: 15px;
+    width: 85px
+}
+.sprites-xem-them-nor {
+    background-position: 0 -6166px;
+    height: 15px;
+    width: 85px
+}
+.sprites-xo-hov {
+    background-position: 0 -6181px;
+    height: 28px;
+    width: 28px
+}
+.sprites-xo-nor {
+    background-position: 0 -6209px;
+    height: 28px;
+    width: 28px
+}
+.fb_iframe_widget iframe {
+    right: 0
+}
+
+.loading {
+    color: #fff
+}
+.Login {
+    height: 122px;
+    width: 280px
+}
+.Login .Profile {
+    width: 280px;
+    overflow: hidden;
+    display: block
+}
+.Login .Profile .TextBoxDN {
+    background: #00436f;
+    width: 170px;
+    height: 70px;
+    float: left;
+    overflow: hidden;
+    display: block;
+    margin: 20px 0 0 15px
+}
+.Login .Profile .TextBoxDN img {
+    float: left;
+    margin: 10px 13px 0 10px;
+    display: block
+}
+.Login .Profile .BtnMayChu {
+    background-position: 0 -108px;
+    height: 70px;
+    width: 80px;
+    border-top: 1px solid #000;
+    cursor: pointer;
+    float: left;
+    padding: 0;
+    margin-top: 19px
+}
+.Login .Profile .BtnMayChu:hover {
+    background-position: 0 -38px;
+    height: 70px;
+    width: 80px
+}
+.Login ul.Link {
+    overflow: hidden;
+    padding-left: 20px;
+    width: 258px
+}
+.Login ul.Link li {
+    float: left;
+    list-style: outside none none;
+    padding-right: 15px
+}
+.Login ul.Link li a {
+    color: #8ab8da;
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 10px;
+    text-decoration: underline
+}
+.Login ul.Link li a:hover {
+    color: #3ecbeb
+}
+.Login ul.Link li:nth-child(2) {
+    color: #8ab8da;
+    font-size: 16px;
+    line-height: 38px
+}
+.Login .text-danger {
+    color: #be490f;
+    display: block;
+    font-size: 12px;
+    position: absolute;
+    width: 270px;
+    margin-left: 15px
+}
+.Login .TextBoxDN {
+    width: 160px;
+    float: left;
+    overflow: hidden;
+    display: block;
+    margin: 21px 10px 2px 15px
+}
+.kq-login-h {font-size: 13px; padding: 1px 22px; display: block;color: #fff; text-align: center;margin: 0 0 -16px;height:24px;}
+.Login .TextBoxDN input {
+    width: 150px;
+    height: 20px;
+    background: #00436f;
+    color: #b4d5f7;
+    padding: 4px;
+    margin: 0 0 8px 0;
+    border: #000 1px solid;
+    display: block;
+    overflow: hidden
+}
+.Login .TextBoxDN input#p {
+    margin: 0
+}
+.Login .BtSubmit {
+    border: 0;
+    cursor: pointer;
+    float: right;
+    margin: 21px 15px 0 0;
+    background-position: 0 -2864px;
+    height: 70px;
+    width: 80px
+}
+.Login .BtSubmit:hover {
+    background-position: 0 -2794px;
+    height: 70px;
+    width: 80px
+}
+.Login p {
+    color: #8ab8da;
+    clear: none;
+    padding-top: 5px;
+    float: left;
+    display: block
+}
+.Login p span {
+    font-weight: bold;
+    display: block;
+    overflow: hidden;
+    width: 104px;
+    height: 18px
+}
+.Login p a:link,
+.Login p a:visited {
+    font-size: 12px;
+    color: #8ab8da;
+    text-decoration: underline;
+    margin-left: 15px
+}
+.Login p a:hover {
+    color: #37cded
+}
+.fancybox-overlay {
+    z-index: 10000
+}
+.logo,
+.Left a.HoTro,
+.Left a.Video,
+div.hmfooter .Footer a,
+.MainContent ul.cam-nang li a,
+.MainContent ul.cam-nang li span.Hot,
+.MainContent ul.cam-nang li span.New,
+#Block-Char .CharControl li a,
+#Block-Char .CharContent .Char .CharLeft a {
+    display: block;
+    text-indent: -9999px
+}
+#Block-Char .CharContent .Char.Active .CharLeft {
+    -webkit-transition: .7s all .5s;
+    -moz-transition: .7s all .5s;
+    transition: .7s all .5s;
+    left: 23px
+}
+#Block-Char .CharContent .Char .CharLeft {
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    left: -460px
+}
+#Block-Char .CharContent .Char.Active .CharRight {
+    -webkit-transition: .7s all .5s;
+    -moz-transition: .7s all .5s;
+    transition: .7s all .5s;
+    right: 0
+}
+#Block-Char .CharContent .Char .CharRight {
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    right: -480px
+}
+
+
+.Content {
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    display: block;
+    z-index: 2
+}
+.MainContent {
+    width: 695px;
+    float: left;
+    overflow: hidden;
+    margin-left: 10px
+}
+.MainContent ul.cam-nang {
+    width: 220px;
+    display: block;
+    float: left;
+    margin-left: 11px;
+}
+.MainContent ul.cam-nang li {
+    float: left;
+    position: relative
+}
+.MainContent ul.cam-nang li a {
+    float: left
+}
+.MainContent ul.cam-nang li a.Cn-1 {
+    background-position: 0 -356px;
+    height: 178px;
+    width: 105px;
+    margin: 0 10px 10px 0
+}
+.MainContent ul.cam-nang li a.Cn-1:hover {
+    background-position: 0 -178px;
+    height: 178px;
+    width: 105px
+}
+.MainContent ul.cam-nang li a.Cn-1.Off {
+    background-position: 0 -534px;
+    height: 178px;
+    width: 105px;
+    cursor: default
+}
+.MainContent ul.cam-nang li a.Cn-2 {
+    background: url(../images/home/cn2-nor2.png) no-repeat; background-position:0 0px;
+    height: 178px;
+    width: 105px;
+    margin: 0 0 10px 0
+}
+.MainContent ul.cam-nang li a.Cn-2:hover {
+    background-position: -111px 0;
+    height: 178px;
+    width: 105px
+}
+.MainContent ul.cam-nang li a.Cn-2.Off {
+    background-position: 0 -1068px;
+    height: 178px;
+    width: 105px;
+    cursor: default
+}
+.MainContent ul.cam-nang li a.Cn-3 {
+    background-position: 0 -1424px;
+    height: 178px;
+    width: 105px;
+    margin: 0 10px 0 0
+}
+.MainContent ul.cam-nang li a.Cn-3:hover {
+    background-position: 0 -1246px;
+    height: 178px;
+    width: 105px
+}
+.MainContent ul.cam-nang li a.Cn-3.Off {
+    background-position: 0 -1602px;
+    height: 178px;
+    width: 105px;
+    cursor: default
+}
+.MainContent ul.cam-nang li a.Cn-4 {
+    background-position: 0 -1958px;
+    height: 178px;
+    width: 105px
+}
+.MainContent ul.cam-nang li a.Cn-4:hover {
+    background-position: 0 -1780px;
+    height: 178px;
+    width: 105px
+}
+.MainContent ul.cam-nang li a.Cn-4.Off {
+    background-position: 0 -2136px;
+    height: 178px;
+    width: 105px;
+    cursor: default
+}
+.MainContent ul.cam-nang li span.Hot {
+    background-position: 0 -3203px;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+.MainContent ul.cam-nang li span.New {
+    background-position: 0 -3245px;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+#Block-Char {
+    background: url(../images/home/bg-char.jpg) no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 661px;
+    height: 371px;
+    display: block;
+    clear: both
+}
+#Block-Char .CharControl {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 56px;
+    height: 200px;
+    z-index: 5;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#Block-Char .CharControl li {
+    float: left;
+    margin-right: 20px
+}
+#Block-Char .CharControl li a{background:url(../images/home/nv_menu.png) no-repeat;display:block;float:left;width:56px;height:77px;}
+#Block-Char .CharControl li:nth-child(1) a{background-position:0 0;}
+#Block-Char .CharControl li:nth-child(2) a{background-position:0 -77px;}
+#Block-Char .CharControl li:nth-child(3) a{background-position:0 -156px;}
+#Block-Char .CharControl li:nth-child(4) a{background-position:0 -237px;}
+
+#Block-Char .CharControl li:nth-child(1).nv_active a{background-position:-61px 0;}
+#Block-Char .CharControl li:nth-child(2).nv_active a{background-position:-61px -77px;}
+#Block-Char .CharControl li:nth-child(3).nv_active a{background-position:-61px -156px;}
+#Block-Char .CharControl li:nth-child(4).nv_active a{background-position:-61px -237px;}
+
+#Block-Char .CharControl #magic-line {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 94px;
+    height: 2px;
+    background: #37cded
+}
+#Block-Char .CharContent {
+    width: 659px;
+    height: 371px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 2px
+}
+#Block-Char .CharContent .Char {
+    width: 659px;
+    height: 371px;
+    display: block;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+#Block-Char .CharContent .Char .CharLeft {
+    width: 460px;
+    height: 326px;
+    position: absolute;
+    top: 60px;
+    z-index: 1
+}
+#Block-Char .CharContent .Char .CharLeft a {
+    background-position: 0 -6121px;
+    height: 30px;
+    width: 96px;
+    position: absolute;
+    top: 260px;
+    left: 358px
+}
+#Block-Char .CharContent .Char .CharLeft a:hover {
+    background-position: 0 -6091px;
+    height: 30px;
+    width: 96px
+}
+#Block-Char .CharContent .Char .CharRight {
+    width: 480px;
+    height: 371px;
+    position: absolute;
+    top: 0;
+    z-index: 0
+}
+#Block-Char .CharContent .Char.Active {
+    z-index: 3
+}
+
+@media screen and (max-width: 1025px) {
+    .Rating_margintop {
+        top: 230px
+    }
+}
+body {
+    font: 15px/22px Tahoma, Arial, Verdana, sans-serif;
+    margin: 0;
+    padding: 0
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+ul,
+ul li,
+ol,
+ol li,
+dl,
+dl dt,
+dl dd,
+blockquote {
+    margin: 0;
+    padding: 0
+}
+ul,
+ul li,
+ol,
+ol li {
+    list-style: none
+}
+img {
+    border: 0
+}
+a {
+    outline: 0
+}
+a:link,
+a:visited {
+    text-decoration: none
+}
+a:hover {
+    text-decoration: underline
+}
+fieldset {
+    border: 0;
+    background: 0;
+    margin: 0;
+    padding: 0
+}
+fieldset legend {
+    display: none
+}
+input,
+select,
+textarea {
+    font: 13px/19px Tahoma, Arial, Verdana, sans-serif
+}
+input[type="image"],
+input[type="submit"] {
+    outline: 0
+}
+input {
+    vertical-align: baseline;
+    margin: -1px -2px
+}
+html>body input {
+    vertical-align: text-bottom;
+    margin: 0
+}
+object,
+embed {
+    outline: 0
+}
+.Hidden {
+    display: none
+}
+.Wrapper {
+    overflow: visible;
+    height: 1%
+}
+html>body .Wrapper {
+    overflow: hidden;
+    height: auto
+}
+.breadcrumb ul li,
+ul li span {
+    white-space: nowrap
+}
+#thewindowbackground {
+    background-color: #000;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    z-index: 990;
+    width: auto;
+    position: absolute;
+    display: none;
+    filter: alpha(opacity=80)
+}
+#ad_zone_TV {
+    z-index: 1000
+}
+#bannerPopup {
+    margin: auto;
+    width: 660px;
+    height: 462px;
+    z-index: 1000;
+    position: absolute;
+    display: none;
+    background-color: #000
+}
+#btClose {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 101;
+    cursor: pointer
+}
+a#btClose:link,
+a#btClose:visited {
+    width: 71px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-indent: -9999px
+}
+a#btClose:hover {
+    background-position: 0 -32px
+}
+a#btCloseBottom:link,
+a#btCloseBottom:visited {
+    background: #000;
+    width: 23px;
+    height: 23px;
+    display: block;
+    position: absolute;
+    top: -3px;
+    right: -2px;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold
+}
+#bannerPopupBottom {
+    width: 300px!important;
+    height: 100px!important;
+    z-index: 1000!important;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    display: none;
+    overflow: hidden;
+    padding-top: 26px;
+    border: 0!important
+}
+#bannerPopupBottom img {
+    border: 1px solid #999
+}
+#btCloseBottom {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 991;
+    cursor: pointer
+}
+#boxFlashAds {
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    left: -9999em;
+    top: -9999em
+}
+.fixedBanner {
+    position: fixed!important
+}
+form.CheckClose {
+    display: block;
+    float: left;
+    color: #9e9e9e;
+    font-size: 11px
+}
+#bannerPopup .OptionClose {
+    display: block;
+    height: 30px;
+    width: 345px;
+    float: right;
+    padding-top: 3px
+}
+a.PopupBtnClose:link,
+a.PopupBtnClose:visited {
+    width: 51px;
+    height: 16px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-indent: -9999px;
+    float: right;
+    margin: 4px 5px 0 0
+}
+a.PopupBtnClose:hover {
+    background-position: 0 -16px
+}
+.PopupBG {
+    background: #000
+}
+#bannerPopup img {
+    padding: 32px 0 0 5px
+}
+#bannerPopup embed {
+    margin: 32px 0 0 5px
+}
+ul.Disc li {
+    list-style-type: disc;
+    margin-bottom: 0;
+    padding: 0 0 0 5px;
+    text-align: justify
+}
+#topbar {
+    height: 30px;
+    display: block;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+    position: relative;
+    z-index: 800;
+    overflow: hidden
+}
+#Topbar_Forum {
+    height: 40px;
+    display: block;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+    position: relative;
+    z-index: 800
+}
+body {
+    padding: 0;
+    margin: 0
+}
+img {
+    border: 0
+}
+h5,
+h6,
+form,
+ul,
+ul li,
+ol,
+ol li,
+dl,
+dl dt,
+dl dd {
+    margin: 0;
+    padding: 0
+}
+
+.StyleLink {
+    color: #737373;
+    text-decoration: none;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 13px;
+    float: right
+}
+.StyleLink a:link,
+.StyleLink a:visited,
+.StyleLink a:active {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px
+}
+.StyleLink a:hover {
+    color: #000;
+    text-decoration: underline
+}
+#gameBanner {
+    width: 1000px;
+    margin: 0 auto;
+    z-index: 10;
+    position: relative
+}
+.HoverBanner {
+    height: 150px;
+    width: 500px;
+    position: relative;
+    overflow: hidden
+}
+.SBanner {
+    float: left;
+    padding: 0
+}
+.BBanner {
+    display: none;
+    height: 0
+}
+.BigBanner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10000
+}
+.TBoxBanner {
+    width: 1000px;
+    display: block;
+    height: 40px;
+    float: left;
+    overflow: visible
+}
+#advTopBar1_temp {
+    z-index: 1000;
+    display: none
+}
+.Zone {
+    z-index: 10;
+    display: none
+}
+ul#nav li a {
+    display: block;
+    text-indent: -9999px
+}
+
+.sprites-banner-nav-hov {
+    background-position: 0 0;
+    height: 19px;
+    width: 20px
+}
+.sprites-banner-nav-nor {
+    background-position: 0 -19px;
+    height: 19px;
+    width: 20px
+}
+.sprites-chon-may-chu-hov {
+    background-position: 0 -38px;
+    height: 70px;
+    width: 80px
+}
+.sprites-chon-may-chu-nor {
+    background-position: 0 -108px;
+    height: 70px;
+    width: 80px
+}
+.sprites-cn1-hov {
+    background-position: 0 -178px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn1-nor {
+    background-position: 0 -356px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn1-off {
+    background-position: 0 -534px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-hov {
+    background-position: 0 -712px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-nor {
+    background-position: 0 -890px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-off {
+    background-position: 0 -1068px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-hov {
+    background-position: 0 -1246px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-nor {
+    background-position: 0 -1424px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-off {
+    background-position: 0 -1602px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-hov {
+    background-position: 0 -1780px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-nor {
+    background-position: 0 -1958px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-off {
+    background-position: 0 -2136px;
+    height: 178px;
+    width: 105px
+}
+.sprites-control-1-hov {
+    background-position: 0 -2314px;
+    height: 45px;
+    width: 81px
+}
+.sprites-control-1-nor {
+    background-position: 0 -2359px;
+    height: 45px;
+    width: 81px
+}
+.sprites-control-2-hov {
+    background-position: 0 -2404px;
+    height: 45px;
+    width: 88px
+}
+.sprites-control-2-nor {
+    background-position: 0 -2449px;
+    height: 45px;
+    width: 88px
+}
+.sprites-control-3-hov {
+    background-position: 0 -2494px;
+    height: 45px;
+    width: 73px
+}
+.sprites-control-3-nor {
+    background-position: 0 -2539px;
+    height: 45px;
+    width: 73px
+}
+.sprites-control-4-hov {
+    background-position: 0 -2584px;
+    height: 45px;
+    width: 85px
+}
+.sprites-control-4-nor {
+    background-position: 0 -2629px;
+    height: 45px;
+    width: 85px
+}
+.sprites-dang-ky-nhanh-hov {
+    background-position: 0 -2674px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-ky-nhanh-nor {
+    background-position: 0 -2714px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-ky-nhanh-off {
+    background-position: 0 -2754px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-nhap-hov {
+    background-position: 0 -2794px;
+    height: 70px;
+    width: 80px
+}
+.sprites-dang-nhap-nor {
+    background-position: 0 -2864px;
+    height: 70px;
+    width: 80px
+}
+.sprites-download-hov {
+    background-position: 0 -2934px;
+    height: 20px;
+    width: 23px
+}
+.sprites-download-nor {
+    background-position: 0 -2954px;
+    height: 20px;
+    width: 23px
+}
+.sprites-hang-1 {
+    background-position: 0 -2974px;
+    height: 16px;
+    width: 20px
+}
+.sprites-hang-2 {
+    background-position: 0 -2990px;
+    height: 16px;
+    width: 20px
+}
+.sprites-hang-3 {
+    background-position: 0 -3006px;
+    height: 16px;
+    width: 20px
+}
+.sprites-holine {
+    background-position: 0 -3022px;
+    height: 83px;
+    width: 271px
+}
+.sprites-hot-line-hov {
+    background-position: 0 -3105px;
+    height: 49px;
+    width: 280px
+}
+.sprites-hot-line-nor {
+    background-position: 0 -3154px;
+    height: 49px;
+    width: 280px
+}
+.sprites-icon-hot {
+    background-position: 0 -3203px;
+    height: 42px;
+    width: 42px
+}
+.sprites-icon-new {
+    background-position: 0 -3245px;
+    height: 42px;
+    width: 42px
+}
+.sprites-icon-play {
+    background-position: 0 -3287px;
+    height: 55px;
+    width: 46px
+}
+.sprites-logo-vng {
+    background-position: 0 -3342px;
+    height: 63px;
+    width: 42px
+}
+.sprites-may-chu-hov {
+    background-position: 0 -3405px;
+    height: 47px;
+    width: 121px
+}
+.sprites-may-chu-nor {
+    background-position: 0 -3452px;
+    height: 47px;
+    width: 121px
+}
+.sprites-may-chu-off {
+    background-position: 0 -3499px;
+    height: 47px;
+    width: 121px
+}
+.sprites-mnu-side-hov {
+    background-position: 0 -3546px;
+    height: 51px;
+    width: 270px
+}
+.sprites-mnu-side-nor {
+    background-position: 0 -3597px;
+    height: 51px;
+    width: 270px
+}
+.sprites-mnu-side-sub {
+    background-position: 0 -3648px;
+    height: 50px;
+    width: 270px
+}
+.sprites-more-hov {
+    background-position: 0 -3698px;
+    height: 19px;
+    width: 20px
+}
+.sprites-more-nor {
+    background-position: 0 -3717px;
+    height: 19px;
+    width: 20px
+}
+.sprites-more-off {
+    background-position: 0 -3736px;
+    height: 40px;
+    width: 210px
+}
+.sprites-nap-the-hov {
+    background-position: 0 -3776px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nap-the-nor {
+    background-position: 0 -3816px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nap-the-off {
+    background-position: 0 -3856px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nav-1-hov {
+    background-position: 0 -3896px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-1-nor {
+    background-position: 0 -3975px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-1-off {
+    background-position: 0 -4054px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-2-hov {
+    background-position: 0 -4133px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-2-nor {
+    background-position: 0 -4212px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-2-off {
+    background-position: 0 -4291px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-3-hov {
+    background-position: 0 -4370px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-3-nor {
+    background-position: 0 -4449px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-3-off {
+    background-position: 0 -4528px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-4-hov {
+    background-position: 0 -4607px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-4-nor {
+    background-position: 0 -4686px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-4-off {
+    background-position: 0 -4765px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-5-hov {
+    background-position: 0 -4844px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-5-nor {
+    background-position: 0 -4923px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-5-off {
+    background-position: 0 -5002px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-6-hov {
+    background-position: 0 -5081px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-6-nor {
+    background-position: 0 -5160px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-6-off {
+    background-position: 0 -5239px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-7-hov {
+    background-position: 0 -5318px;
+    height: 79px;
+    width: 80px
+}
+.sprites-nav-7-nor {
+    background-position: 0 -5397px;
+    height: 79px;
+    width: 80px
+}
+.sprites-nav-7-off {
+    background-position: 0 -5476px;
+    height: 79px;
+    width: 80px
+}
+.sprites-new-server-hov {
+    background-position: 0 -5555px;
+    height: 61px;
+    width: 251px
+}
+.sprites-new-server-nor {
+    background-position: 0 -5616px;
+    height: 61px;
+    width: 251px
+}
+.sprites-ranking-hov {
+    background-position: 0 -5677px;
+    height: 25px;
+    width: 30px
+}
+.sprites-ranking-nor {
+    background-position: 0 -5702px;
+    height: 25px;
+    width: 30px
+}
+.sprites-search-hov {
+    background-position: 0 -5727px;
+    height: 25px;
+    width: 30px
+}
+.sprites-search-nor {
+    background-position: 0 -5752px;
+    height: 25px;
+    width: 30px
+}
+.sprites-server-nav-left-hov {
+    background-position: 0 -5777px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-left-nor {
+    background-position: 0 -5807px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-right-hov {
+    background-position: 0 -5837px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-right-nor {
+    background-position: 0 -5867px;
+    height: 30px;
+    width: 30px
+}
+.sprites-thamgia-hov {
+    background-position: 0 -5897px;
+    height: 20px;
+    width: 13px
+}
+.sprites-thamgia-nor {
+    background-position: 0 -5917px;
+    height: 20px;
+    width: 13px
+}
+.sprites-tim-hov {
+    background-position: 0 -5937px;
+    height: 30px;
+    width: 80px
+}
+.sprites-tim-nor {
+    background-position: 0 -5967px;
+    height: 30px;
+    width: 80px
+}
+.sprites-top-hov {
+    background-position: 0 -5997px;
+    height: 47px;
+    width: 46px
+}
+.sprites-top-nor {
+    background-position: 0 -6044px;
+    height: 47px;
+    width: 46px
+}
+.sprites-xem-chi-tiet-hov {
+    background-position: 0 -6091px;
+    height: 30px;
+    width: 96px
+}
+.sprites-xem-chi-tiet-nor {
+    background-position: 0 -6121px;
+    height: 30px;
+    width: 96px
+}
+.sprites-xem-them-hov {
+    background-position: 0 -6151px;
+    height: 15px;
+    width: 85px
+}
+.sprites-xem-them-nor {
+    background-position: 0 -6166px;
+    height: 15px;
+    width: 85px
+}
+.sprites-xo-hov {
+    background-position: 0 -6181px;
+    height: 28px;
+    width: 28px
+}
+.sprites-xo-nor {
+    background-position: 0 -6209px;
+    height: 28px;
+    width: 28px
+}
+#boxNav {
+    width: 705px;
+    height: 54px;
+    position: absolute;
+    z-index: 90;
+    left: 50%;
+    line-height: 19px;
+    margin-left: -209px;
+}
+ul#nav li {
+    float: left
+}
+ul#nav a{
+    margin-top: -15px;
+}
+ul#nav li a.Nav-1 {
+    background-position: 0 -4054px;
+    height: 79px;
+    width: 60px;
+}
+ul#nav li a.Nav-1:hover {
+    background-position: 0 -4074px;
+    height: 79px;
+    width: 60px;
+    background-image: url("../images/home/menu.png")
+}
+ul#nav li a.Nav-2 {
+    background-position: 0 -4212px;
+    height: 79px;
+    width: 68px;
+}
+ul#nav li a.Nav-2:hover {
+    background-position: 0 -4311px;
+    height: 79px;
+    width: 68px;
+    background-image: url("../images/home/menu.png")
+}
+ul#nav li a.Nav-3 {
+    background-position: 0 -4449px;
+    height: 79px;
+    width: 87px
+}
+ul#nav li a.Nav-3:hover {
+    background-position: 0 -4548px;
+    height: 79px;
+    width: 87px;
+    background-image: url("../images/home/menu.png")
+}
+ul#nav li a.Nav-4 {
+    background-position: 0 -4686px;
+    height: 79px;
+    width: 100px
+}
+ul#nav li a.Nav-4:hover {
+    background-position: 0 -4785px;
+    height: 79px;
+    width: 100px;
+    background-image: url("../images/home/menu.png")
+}
+ul#nav li a.Nav-5 {
+    background-position: 0 -4923px;
+    height: 79px;
+    width: 108px
+}
+ul#nav li a.Nav-5:hover {
+    background-position: 0 -5022px;
+    height: 79px;
+    width: 108px;
+    background-image: url("../images/home/menu.png")
+}
+ul#nav li a.Nav-6 {
+    background-position: 0 -5160px;
+    height: 79px;
+    width: 113px
+}
+ul#nav li a.Nav-6:hover {
+    background-position: 0 -5259px;
+    height: 79px;
+    width: 113px;
+    background-image: url("../images/home/menu.png")
+}
+ul#nav li a.Nav-7 {
+    margin-top: 17px;
+    height: 23px;
+    width: 153px;
+    text-indent: 12px;
+    color: rgba(25, 30, 46, 0.75);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: tahoma;
+}
+ul#nav li a.Nav-7:hover {
+    margin-top: 17px;
+    height: 23px;
+    width: 153px;
+    text-indent: 12px;
+    color: #4C5560;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: tahoma;
+    background: none;
+        /*margin-top: -1px;
+    height: 79px;
+    width: 80px;
+    background-image: url("../images/home/menu.png");
+    text-indent: -999px;*/
+}
+ul#nav li.Active .Nav-1 {
+    background-position: 0 -3896px;
+    height: 79px;
+    width: 60px;
+    background-image: url("../images/home/menu.png")
+}
+ul#nav li.Active .Nav-2 {
+    background-position: 0 -4133px;
+    height: 79px;
+    width: 86px;
+    background-image: url("../images/home/menu.png")
+}
+ul#nav li.Active .Nav-3 {
+    background-position: 0 -4370px;
+    height: 79px;
+    width: 87px;
+    background-image: url("../images/home/menu.png")
+}
+ul#nav li.Active .Nav-4 {
+    background-position: 0 -4607px;
+    height: 79px;
+    width: 100px;
+    background-image: url("../images/home/menu.png")
+}
+ul#nav li.Active .Nav-5 {
+    background-position: 0 -4844px;
+    height: 79px;
+    width: 108px;
+    background-image: url("../images/home/menu.png")
+}
+ul#nav li.Active .Nav-6 {
+    background-position: 0 -5081px;
+    height: 79px;
+    width: 113px;
+    background-image: url("../images/home/menu.png")
+}
+ul#nav li.Active .Nav-7 {
+    background-position: 0 -5318px;
+    height: 79px;
+    width: 80px;
+    background-image: url("../images/home/menu.png")
+}
+ul#nav li.Off .Nav-1,
+ul#nav li.Off .Nav-1:hover {
+    background-position: 0 -4054px;
+    height: 79px;
+    width: 60px
+}
+ul#nav li.Off .Nav-2,
+ul#nav li.Off .Nav-2:hover {
+    background-position: 0 -4291px;
+    height: 79px;
+    width: 86px
+}
+ul#nav li.Off .Nav-3,
+ul#nav li.Off .Nav-3:hover {
+    background-position: 0 -4528px;
+    height: 79px;
+    width: 87px
+}
+ul#nav li.Off .Nav-4,
+ul#nav li.Off .Nav-4:hover {
+    background-position: 0 -4765px;
+    height: 79px;
+    width: 100px
+}
+ul#nav li.Off .Nav-5,
+ul#nav li.Off .Nav-5:hover {
+    background-position: 0 -5002px;
+    height: 79px;
+    width: 108px
+}
+ul#nav li.Off .Nav-6,
+ul#nav li.Off .Nav-6:hover {
+    background-position: 0 -5239px;
+    height: 79px;
+    width: 113px
+}
+ul#nav li.Off .Nav-7,
+ul#nav li.Off .Nav-7:hover {
+    background-position: 0 -5476px;
+    height: 79px;
+    width: 80px
+}
+ul#nav li ul {
+    display: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: absolute;
+    top: 52px;
+    width: 170px
+}
+
+.sprites-banner-nav-hov {
+    background-position: 0 0;
+    height: 19px;
+    width: 20px
+}
+.sprites-banner-nav-nor {
+    background-position: 0 -19px;
+    height: 19px;
+    width: 20px
+}
+.sprites-chon-may-chu-hov {
+    background-position: 0 -38px;
+    height: 70px;
+    width: 80px
+}
+.sprites-chon-may-chu-nor {
+    background-position: 0 -108px;
+    height: 70px;
+    width: 80px
+}
+.sprites-cn1-hov {
+    background-position: 0 -178px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn1-nor {
+    background-position: 0 -356px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn1-off {
+    background-position: 0 -534px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-hov {
+    background-position: 0 -712px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-nor {
+    background-position: 0 -890px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-off {
+    background-position: 0 -1068px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-hov {
+    background-position: 0 -1246px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-nor {
+    background-position: 0 -1424px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-off {
+    background-position: 0 -1602px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-hov {
+    background-position: 0 -1780px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-nor {
+    background-position: 0 -1958px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-off {
+    background-position: 0 -2136px;
+    height: 178px;
+    width: 105px
+}
+.sprites-control-1-hov {
+    background-position: 0 -2314px;
+    height: 45px;
+    width: 81px
+}
+.sprites-control-1-nor {
+    background-position: 0 -2359px;
+    height: 45px;
+    width: 81px
+}
+.sprites-control-2-hov {
+    background-position: 0 -2404px;
+    height: 45px;
+    width: 88px
+}
+.sprites-control-2-nor {
+    background-position: 0 -2449px;
+    height: 45px;
+    width: 88px
+}
+.sprites-control-3-hov {
+    background-position: 0 -2494px;
+    height: 45px;
+    width: 73px
+}
+.sprites-control-3-nor {
+    background-position: 0 -2539px;
+    height: 45px;
+    width: 73px
+}
+.sprites-control-4-hov {
+    background-position: 0 -2584px;
+    height: 45px;
+    width: 85px
+}
+.sprites-control-4-nor {
+    background-position: 0 -2629px;
+    height: 45px;
+    width: 85px
+}
+.sprites-dang-ky-nhanh-hov {
+    background-position: 0 -2674px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-ky-nhanh-nor {
+    background-position: 0 -2714px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-ky-nhanh-off {
+    background-position: 0 -2754px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-nhap-hov {
+    background-position: 0 -2794px;
+    height: 70px;
+    width: 80px
+}
+.sprites-dang-nhap-nor {
+    background-position: 0 -2864px;
+    height: 70px;
+    width: 80px
+}
+.sprites-download-hov {
+    background-position: 0 -2934px;
+    height: 20px;
+    width: 23px
+}
+.sprites-download-nor {
+    background-position: 0 -2954px;
+    height: 20px;
+    width: 23px
+}
+.sprites-hang-1 {
+    background-position: 0 -2974px;
+    height: 16px;
+    width: 20px
+}
+.sprites-hang-2 {
+    background-position: 0 -2990px;
+    height: 16px;
+    width: 20px
+}
+.sprites-hang-3 {
+    background-position: 0 -3006px;
+    height: 16px;
+    width: 20px
+}
+.sprites-holine {
+    background-position: 0 -3022px;
+    height: 83px;
+    width: 271px
+}
+.sprites-hot-line-hov {
+    background-position: 0 -3105px;
+    height: 49px;
+    width: 280px
+}
+.sprites-hot-line-nor {
+    background-position: 0 -3154px;
+    height: 49px;
+    width: 280px
+}
+.sprites-icon-hot {
+    background-position: 0 -3203px;
+    height: 42px;
+    width: 42px
+}
+.sprites-icon-new {
+    background-position: 0 -3245px;
+    height: 42px;
+    width: 42px
+}
+.sprites-icon-play {
+    background-position: 0 -3287px;
+    height: 55px;
+    width: 46px
+}
+.sprites-logo-vng {
+    background-position: 0 -3342px;
+    height: 63px;
+    width: 42px
+}
+.sprites-may-chu-hov {
+    background-position: 0 -3405px;
+    height: 47px;
+    width: 121px
+}
+.sprites-may-chu-nor {
+    background-position: 0 -3452px;
+    height: 47px;
+    width: 121px
+}
+.sprites-may-chu-off {
+    background-position: 0 -3499px;
+    height: 47px;
+    width: 121px
+}
+.sprites-mnu-side-hov {
+    background-position: 0 -3546px;
+    height: 51px;
+    width: 270px
+}
+.sprites-mnu-side-nor {
+    background-position: 0 -3597px;
+    height: 51px;
+    width: 270px
+}
+.sprites-mnu-side-sub {
+    background-position: 0 -3648px;
+    height: 50px;
+    width: 270px
+}
+.sprites-more-hov {
+    background-position: 0 -3698px;
+    height: 19px;
+    width: 20px
+}
+.sprites-more-nor {
+    background-position: 0 -3717px;
+    height: 19px;
+    width: 20px
+}
+.sprites-more-off {
+    background-position: 0 -3736px;
+    height: 40px;
+    width: 210px
+}
+.sprites-nap-the-hov {
+    background-position: 0 -3776px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nap-the-nor {
+    background-position: 0 -3816px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nap-the-off {
+    background-position: 0 -3856px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nav-1-hov {
+    background-position: 0 -3896px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-1-nor {
+    background-position: 0 -3975px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-1-off {
+    background-position: 0 -4054px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-2-hov {
+    background-position: 0 -4133px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-2-nor {
+    background-position: 0 -4212px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-2-off {
+    background-position: 0 -4291px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-3-hov {
+    background-position: 0 -4370px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-3-nor {
+    background-position: 0 -4449px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-3-off {
+    background-position: 0 -4528px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-4-hov {
+    background-position: 0 -4607px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-4-nor {
+    background-position: 0 -4686px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-4-off {
+    background-position: 0 -4765px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-5-hov {
+    background-position: 0 -4844px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-5-nor {
+    background-position: 0 -4923px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-5-off {
+    background-position: 0 -5002px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-6-hov {
+    background-position: 0 -5081px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-6-nor {
+    background-position: 0 -5160px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-6-off {
+    background-position: 0 -5239px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-7-hov {
+    background-position: 0 -5318px;
+    height: 79px;
+    width: 80px
+}
+.sprites-nav-7-nor {
+    background-position: 0 -5397px;
+    height: 79px;
+    width: 80px
+}
+.sprites-nav-7-off {
+    background-position: 0 -5476px;
+    height: 79px;
+    width: 80px
+}
+.sprites-new-server-hov {
+    background-position: 0 -5555px;
+    height: 61px;
+    width: 251px
+}
+.sprites-new-server-nor {
+    background-position: 0 -5616px;
+    height: 61px;
+    width: 251px
+}
+.sprites-ranking-hov {
+    background-position: 0 -5677px;
+    height: 25px;
+    width: 30px
+}
+.sprites-ranking-nor {
+    background-position: 0 -5702px;
+    height: 25px;
+    width: 30px
+}
+.sprites-search-hov {
+    background-position: 0 -5727px;
+    height: 25px;
+    width: 30px
+}
+.sprites-search-nor {
+    background-position: 0 -5752px;
+    height: 25px;
+    width: 30px
+}
+.sprites-server-nav-left-hov {
+    background-position: 0 -5777px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-left-nor {
+    background-position: 0 -5807px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-right-hov {
+    background-position: 0 -5837px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-right-nor {
+    background-position: 0 -5867px;
+    height: 30px;
+    width: 30px
+}
+.sprites-thamgia-hov {
+    background-position: 0 -5897px;
+    height: 20px;
+    width: 13px
+}
+.sprites-thamgia-nor {
+    background-position: 0 -5917px;
+    height: 20px;
+    width: 13px
+}
+.sprites-tim-hov {
+    background-position: 0 -5937px;
+    height: 30px;
+    width: 80px
+}
+.sprites-tim-nor {
+    background-position: 0 -5967px;
+    height: 30px;
+    width: 80px
+}
+.sprites-top-hov {
+    background-position: 0 -5997px;
+    height: 47px;
+    width: 46px
+}
+.sprites-top-nor {
+    background-position: 0 -6044px;
+    height: 47px;
+    width: 46px
+}
+.sprites-xem-chi-tiet-hov {
+    background-position: 0 -6091px;
+    height: 30px;
+    width: 96px
+}
+.sprites-xem-chi-tiet-nor {
+    background-position: 0 -6121px;
+    height: 30px;
+    width: 96px
+}
+.sprites-xem-them-hov {
+    background-position: 0 -6151px;
+    height: 15px;
+    width: 85px
+}
+.sprites-xem-them-nor {
+    background-position: 0 -6166px;
+    height: 15px;
+    width: 85px
+}
+.sprites-xo-hov {
+    background-position: 0 -6181px;
+    height: 28px;
+    width: 28px
+}
+.sprites-xo-nor {
+    background-position: 0 -6209px;
+    height: 28px;
+    width: 28px
+}
+#carouselBannerEvent {
+    width: 661px;
+    height: 198px!important;
+    position: relative;
+    background: #3c4049;
+    margin-bottom: 10px;
+    overflow: hidden;
+    z-index: 5
+}
+#carouselBannerEvent #imgs {
+    position: relative;
+    overflow: hidden;
+    width: 661px;
+    height: 198px
+}
+#carouselBannerEvent #imgs li {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=0);
+    width: 661px;
+    height: 198px
+}
+#carouselBannerEvent #imgs li.ActiveBanner {
+    z-index: 5;
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100)
+}
+#carouselBannerEvent #imgs li a {
+    display: block;
+    width: 661px;
+    height: 198px
+}
+#carouselBannerEvent #imgsControl {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    right: 0;
+    margin-bottom: 10px
+}
+#carouselBannerEvent #imgsControl li {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    float: left;
+    list-style: none;
+    overflow: hidden;
+    margin-right: 10px
+}
+#carouselBannerEvent #imgsControl li a {
+    background-position: 0 -19px;
+    height: 19px;
+    width: 20px;
+    display: block;
+    color: #eceeed;
+    text-decoration: none;
+    line-height: 15px;
+    padding-right: 6px;
+    text-indent: 0;
+    text-align: center
+}
+#carouselBannerEvent #imgsControl li a:hover {
+    background-position: 0 0;
+    height: 19px;
+    width: 20px;
+    width: 20px;
+    padding-right: 6px;
+    text-indent: 0;
+    text-align: center
+}
+#carouselBannerEvent #imgsControl li:nth-child(5) {
+    border-right: 0
+}
+#carouselBannerEvent #imgsControl li.ActiveBanner a {
+    background-position: 0 0;
+    height: 19px;
+    width: 20px;
+    width: 20px;
+    padding-right: 6px;
+    text-indent: 0;
+    text-align: center
+}
+body {
+    font: 15px/22px Tahoma, Arial, Verdana, sans-serif;
+    margin: 0;
+    padding: 0
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+ul,
+ul li,
+ol,
+ol li,
+dl,
+dl dt,
+dl dd,
+blockquote {
+    margin: 0;
+    padding: 0
+}
+ul,
+ul li,
+ol,
+ol li {
+    list-style: none
+}
+img {
+    border: 0
+}
+a {
+    outline: 0
+}
+a:link,
+a:visited {
+    text-decoration: none
+}
+a:hover {
+    text-decoration: underline
+}
+fieldset {
+    border: 0;
+    background: 0;
+    margin: 0;
+    padding: 0
+}
+fieldset legend {
+    display: none
+}
+input,
+select,
+textarea {
+    font: 13px/19px Tahoma, Arial, Verdana, sans-serif
+}
+input[type="image"],
+input[type="submit"] {
+    outline: 0
+}
+input {
+    vertical-align: baseline;
+    margin: -1px -2px
+}
+html>body input {
+    vertical-align: text-bottom;
+    margin: 0
+}
+object,
+embed {
+    outline: 0
+}
+.Hidden {
+    display: none
+}
+.Wrapper {
+    overflow: visible;
+    height: 1%
+}
+html>body .Wrapper {
+    overflow: hidden;
+    height: auto
+}
+.breadcrumb ul li,
+ul li span {
+    white-space: nowrap
+}
+#thewindowbackground {
+    background-color: #000;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    z-index: 990;
+    width: auto;
+    position: absolute;
+    display: none;
+    filter: alpha(opacity=80)
+}
+#ad_zone_TV {
+    z-index: 1000
+}
+#bannerPopup {
+    margin: auto;
+    width: 660px;
+    height: 462px;
+    z-index: 1000;
+    position: absolute;
+    display: none;
+    background-color: #000
+}
+#btClose {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 101;
+    cursor: pointer
+}
+a#btClose:link,
+a#btClose:visited {
+    width: 71px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-indent: -9999px
+}
+a#btClose:hover {
+    background-position: 0 -32px
+}
+a#btCloseBottom:link,
+a#btCloseBottom:visited {
+    background: #000;
+    width: 23px;
+    height: 23px;
+    display: block;
+    position: absolute;
+    top: -3px;
+    right: -2px;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold
+}
+#bannerPopupBottom {
+    width: 300px!important;
+    height: 100px!important;
+    z-index: 1000!important;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    display: none;
+    overflow: hidden;
+    padding-top: 26px;
+    border: 0!important
+}
+#bannerPopupBottom img {
+    border: 1px solid #999
+}
+#btCloseBottom {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 991;
+    cursor: pointer
+}
+#boxFlashAds {
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    left: -9999em;
+    top: -9999em
+}
+.fixedBanner {
+    position: fixed!important
+}
+form.CheckClose {
+    display: block;
+    float: left;
+    color: #9e9e9e;
+    font-size: 11px
+}
+#bannerPopup .OptionClose {
+    display: block;
+    height: 30px;
+    width: 345px;
+    float: right;
+    padding-top: 3px
+}
+a.PopupBtnClose:link,
+a.PopupBtnClose:visited {
+    width: 51px;
+    height: 16px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-indent: -9999px;
+    float: right;
+    margin: 4px 5px 0 0
+}
+a.PopupBtnClose:hover {
+    background-position: 0 -16px
+}
+.PopupBG {
+    background: #000
+}
+#bannerPopup img {
+    padding: 32px 0 0 5px
+}
+#bannerPopup embed {
+    margin: 32px 0 0 5px
+}
+ul.Disc li {
+    list-style-type: disc;
+    margin-bottom: 0;
+    padding: 0 0 0 5px;
+    text-align: justify
+}
+#topbar {
+    height: 30px;
+    display: block;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+    position: relative;
+    z-index: 800;
+    overflow: hidden
+}
+#Topbar_Forum {
+    height: 40px;
+    display: block;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+    position: relative;
+    z-index: 800
+}
+body {
+    padding: 0;
+    margin: 0
+}
+img {
+    border: 0
+}
+h5,
+h6,
+form,
+ul,
+ul li,
+ol,
+ol li,
+dl,
+dl dt,
+dl dd {
+    margin: 0;
+    padding: 0
+}
+
+.BoxLeft a:link {
+    width: 216px;
+    text-decoration: none
+}
+.StyleLink {
+    color: #737373;
+    text-decoration: none;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 13px;
+    float: right
+}
+.StyleLink a:link,
+.StyleLink a:visited,
+.StyleLink a:active {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px
+}
+.StyleLink a:hover {
+    color: #000;
+    text-decoration: underline
+}
+#gameBanner {
+    width: 1000px;
+    margin: 0 auto;
+    z-index: 10;
+    position: relative
+}
+.HoverBanner {
+    height: 150px;
+    width: 500px;
+    position: relative;
+    overflow: hidden
+}
+.SBanner {
+    float: left;
+    padding: 0
+}
+.BBanner {
+    display: none;
+    height: 0
+}
+.BigBanner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10000
+}
+.TBoxBanner {
+    width: 1000px;
+    display: block;
+    height: 40px;
+    float: left;
+    overflow: visible
+}
+
+#advTopBar1_temp {
+    z-index: 1000;
+    display: none
+}
+.Zone {
+    z-index: 10;
+    display: none
+}
+.sprites-sprite,
+.sprites-banner-nav-hov,
+.sprites-banner-nav-nor,
+.sprites-chon-may-chu-hov,
+.sprites-chon-may-chu-nor,
+.sprites-cn1-hov,
+.sprites-cn1-nor,
+.sprites-cn1-off,
+.sprites-cn2-hov,
+.sprites-cn2-nor,
+.sprites-cn2-off,
+.sprites-cn3-hov,
+.sprites-cn3-nor,
+.sprites-cn3-off,
+.sprites-cn4-hov,
+.sprites-cn4-nor,
+.sprites-cn4-off,
+.sprites-control-1-hov,
+.sprites-control-1-nor,
+.sprites-control-2-hov,
+.sprites-control-2-nor,
+.sprites-control-3-hov,
+.sprites-control-3-nor,
+.sprites-control-4-hov,
+.sprites-control-4-nor,
+.sprites-dang-ky-nhanh-hov,
+.sprites-dang-ky-nhanh-nor,
+.sprites-dang-ky-nhanh-off,
+.sprites-dang-nhap-hov,
+.sprites-dang-nhap-nor,
+.sprites-download-hov,
+.sprites-download-nor,
+.sprites-hang-1,
+.sprites-hang-2,
+.sprites-hang-3,
+.sprites-holine,
+.sprites-hot-line-hov,
+.sprites-hot-line-nor,
+.sprites-icon-hot,
+.sprites-icon-new,
+.sprites-icon-play,
+.sprites-logo-vng,
+.sprites-may-chu-hov,
+.sprites-may-chu-nor,
+.sprites-may-chu-off,
+.sprites-mnu-side-hov,
+.sprites-mnu-side-nor,
+.sprites-mnu-side-sub,
+.sprites-more-hov,
+.sprites-more-nor,
+.sprites-more-off,
+.sprites-nap-the-hov,
+.sprites-nap-the-nor,
+.sprites-nap-the-off,
+.sprites-nav-1-hov,
+.sprites-nav-1-nor,
+.sprites-nav-1-off,
+.sprites-nav-2-hov,
+.sprites-nav-2-nor,
+.sprites-nav-2-off,
+.sprites-nav-3-hov,
+.sprites-nav-3-nor,
+.sprites-nav-3-off,
+.sprites-nav-4-hov,
+.sprites-nav-4-nor,
+.sprites-nav-4-off,
+.sprites-nav-5-hov,
+.sprites-nav-5-nor,
+.sprites-nav-5-off,
+.sprites-nav-6-hov,
+.sprites-nav-6-nor,
+.sprites-nav-6-off,
+.sprites-nav-7-hov,
+.sprites-nav-7-nor,
+.sprites-nav-7-off,
+.sprites-new-server-hov,
+.sprites-new-server-nor,
+.sprites-ranking-hov,
+.sprites-ranking-nor,
+.sprites-search-hov,
+.sprites-search-nor,
+.sprites-server-nav-left-hov,
+.sprites-server-nav-left-nor,
+.sprites-server-nav-right-hov,
+.sprites-server-nav-right-nor,
+.sprites-thamgia-hov,
+.sprites-thamgia-nor,
+.sprites-tim-hov,
+.sprites-tim-nor,
+.sprites-top-hov,
+.sprites-top-nor,
+.sprites-xem-chi-tiet-hov,
+.sprites-xem-chi-tiet-nor,
+.sprites-xem-them-hov,
+.sprites-xem-them-nor,
+.sprites-xo-hov,
+.sprites-xo-nor,
+.ServerList .ContentServerList a.NewServer:link,
+.ServerList .ContentServerList a.NewServer:visited,
+.ServerList .ContentServerList a.NewServer:hover,
+.ServerList .ContentServerList .ItemServer ul li a:link,
+.ServerList .ContentServerList .ItemServer ul li a:visited,
+.ServerList .ContentServerList .ItemServer ul li a:hover,
+ul.ServerList2 li a,
+ul.ServerList2 li a:hover,
+a.MayChuMoi:link,
+a.MayChuMoi:visited,
+a.MayChuMoi:link:hover,
+a.MayChuMoi:visited:hover,
+.CenterPage .Prev,
+.CenterPage .Prev:hover,
+.CenterPage .Next,
+.CenterPage .Next:hover {
+    background-image: url('../images/home/sprites-s1de797f653.png');
+    background-repeat: no-repeat
+}
+.sprites-banner-nav-hov {
+    background-position: 0 0;
+    height: 19px;
+    width: 20px
+}
+.sprites-banner-nav-nor {
+    background-position: 0 -19px;
+    height: 19px;
+    width: 20px
+}
+.sprites-chon-may-chu-hov {
+    background-position: 0 -38px;
+    height: 70px;
+    width: 80px
+}
+.sprites-chon-may-chu-nor {
+    background-position: 0 -108px;
+    height: 70px;
+    width: 80px
+}
+.sprites-cn1-hov {
+    background-position: 0 -178px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn1-nor {
+    background-position: 0 -356px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn1-off {
+    background-position: 0 -534px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-hov {
+    background-position: 0 -712px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-nor {
+    background-position: 0 -890px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-off {
+    background-position: 0 -1068px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-hov {
+    background-position: 0 -1246px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-nor {
+    background-position: 0 -1424px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-off {
+    background-position: 0 -1602px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-hov {
+    background-position: 0 -1780px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-nor {
+    background-position: 0 -1958px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-off {
+    background-position: 0 -2136px;
+    height: 178px;
+    width: 105px
+}
+.sprites-control-1-hov {
+    background-position: 0 -2314px;
+    height: 45px;
+    width: 81px
+}
+.sprites-control-1-nor {
+    background-position: 0 -2359px;
+    height: 45px;
+    width: 81px
+}
+.sprites-control-2-hov {
+    background-position: 0 -2404px;
+    height: 45px;
+    width: 88px
+}
+.sprites-control-2-nor {
+    background-position: 0 -2449px;
+    height: 45px;
+    width: 88px
+}
+.sprites-control-3-hov {
+    background-position: 0 -2494px;
+    height: 45px;
+    width: 73px
+}
+.sprites-control-3-nor {
+    background-position: 0 -2539px;
+    height: 45px;
+    width: 73px
+}
+.sprites-control-4-hov {
+    background-position: 0 -2584px;
+    height: 45px;
+    width: 85px
+}
+.sprites-control-4-nor {
+    background-position: 0 -2629px;
+    height: 45px;
+    width: 85px
+}
+.sprites-dang-ky-nhanh-hov {
+    background-position: 0 -2674px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-ky-nhanh-nor {
+    background-position: 0 -2714px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-ky-nhanh-off {
+    background-position: 0 -2754px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-nhap-hov {
+    background-position: 0 -2794px;
+    height: 70px;
+    width: 80px
+}
+.sprites-dang-nhap-nor {
+    background-position: 0 -2864px;
+    height: 70px;
+    width: 80px
+}
+.sprites-download-hov {
+    background-position: 0 -2934px;
+    height: 20px;
+    width: 23px
+}
+.sprites-download-nor {
+    background-position: 0 -2954px;
+    height: 20px;
+    width: 23px
+}
+.sprites-hang-1 {
+    background-position: 0 -2974px;
+    height: 16px;
+    width: 20px
+}
+.sprites-hang-2 {
+    background-position: 0 -2990px;
+    height: 16px;
+    width: 20px
+}
+.sprites-hang-3 {
+    background-position: 0 -3006px;
+    height: 16px;
+    width: 20px
+}
+.sprites-holine {
+    background-position: 0 -3022px;
+    height: 83px;
+    width: 271px
+}
+.sprites-hot-line-hov {
+    background-position: 0 -3105px;
+    height: 49px;
+    width: 280px
+}
+.sprites-hot-line-nor {
+    background-position: 0 -3154px;
+    height: 49px;
+    width: 280px
+}
+.sprites-icon-hot {
+    background-position: 0 -3203px;
+    height: 42px;
+    width: 42px
+}
+.sprites-icon-new {
+    background-position: 0 -3245px;
+    height: 42px;
+    width: 42px
+}
+.sprites-icon-play {
+    background-position: 0 -3287px;
+    height: 55px;
+    width: 46px
+}
+.sprites-logo-vng {
+    background-position: 0 -3342px;
+    height: 63px;
+    width: 42px
+}
+.sprites-may-chu-hov {
+    background-position: 0 -3405px;
+    height: 47px;
+    width: 121px
+}
+.sprites-may-chu-nor {
+    background-position: 0 -3452px;
+    height: 47px;
+    width: 121px
+}
+.sprites-may-chu-off {
+    background-position: 0 -3499px;
+    height: 47px;
+    width: 121px
+}
+.sprites-mnu-side-hov {
+    background-position: 0 -3546px;
+    height: 51px;
+    width: 270px
+}
+.sprites-mnu-side-nor {
+    background-position: 0 -3597px;
+    height: 51px;
+    width: 270px
+}
+.sprites-mnu-side-sub {
+    background-position: 0 -3648px;
+    height: 50px;
+    width: 270px
+}
+.sprites-more-hov {
+    background-position: 0 -3698px;
+    height: 19px;
+    width: 20px
+}
+.sprites-more-nor {
+    background-position: 0 -3717px;
+    height: 19px;
+    width: 20px
+}
+.sprites-more-off {
+    background-position: 0 -3736px;
+    height: 40px;
+    width: 210px
+}
+.sprites-nap-the-hov {
+    background-position: 0 -3776px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nap-the-nor {
+    background-position: 0 -3816px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nap-the-off {
+    background-position: 0 -3856px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nav-1-hov {
+    background-position: 0 -3896px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-1-nor {
+    background-position: 0 -3975px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-1-off {
+    background-position: 0 -4054px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-2-hov {
+    background-position: 0 -4133px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-2-nor {
+    background-position: 0 -4212px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-2-off {
+    background-position: 0 -4291px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-3-hov {
+    background-position: 0 -4370px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-3-nor {
+    background-position: 0 -4449px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-3-off {
+    background-position: 0 -4528px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-4-hov {
+    background-position: 0 -4607px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-4-nor {
+    background-position: 0 -4686px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-4-off {
+    background-position: 0 -4765px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-5-hov {
+    background-position: 0 -4844px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-5-nor {
+    background-position: 0 -4923px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-5-off {
+    background-position: 0 -5002px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-6-hov {
+    background-position: 0 -5081px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-6-nor {
+    background-position: 0 -5160px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-6-off {
+    background-position: 0 -5239px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-7-hov {
+    background-position: 0 -5318px;
+    height: 79px;
+    width: 80px
+}
+.sprites-nav-7-nor {
+    background-position: 0 -5397px;
+    height: 79px;
+    width: 80px
+}
+.sprites-nav-7-off {
+    background-position: 0 -5476px;
+    height: 79px;
+    width: 80px
+}
+.sprites-new-server-hov {
+    background-position: 0 -5555px;
+    height: 61px;
+    width: 251px
+}
+.sprites-new-server-nor {
+    background-position: 0 -5616px;
+    height: 61px;
+    width: 251px
+}
+.sprites-ranking-hov {
+    background-position: 0 -5677px;
+    height: 25px;
+    width: 30px
+}
+.sprites-ranking-nor {
+    background-position: 0 -5702px;
+    height: 25px;
+    width: 30px
+}
+.sprites-search-hov {
+    background-position: 0 -5727px;
+    height: 25px;
+    width: 30px
+}
+.sprites-search-nor {
+    background-position: 0 -5752px;
+    height: 25px;
+    width: 30px
+}
+.sprites-server-nav-left-hov {
+    background-position: 0 -5777px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-left-nor {
+    background-position: 0 -5807px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-right-hov {
+    background-position: 0 -5837px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-right-nor {
+    background-position: 0 -5867px;
+    height: 30px;
+    width: 30px
+}
+.sprites-thamgia-hov {
+    background-position: 0 -5897px;
+    height: 20px;
+    width: 13px
+}
+.sprites-thamgia-nor {
+    background-position: 0 -5917px;
+    height: 20px;
+    width: 13px
+}
+.sprites-tim-hov {
+    background-position: 0 -5937px;
+    height: 30px;
+    width: 80px
+}
+.sprites-tim-nor {
+    background-position: 0 -5967px;
+    height: 30px;
+    width: 80px
+}
+.sprites-top-hov {
+    background-position: 0 -5997px;
+    height: 47px;
+    width: 46px
+}
+.sprites-top-nor {
+    background-position: 0 -6044px;
+    height: 47px;
+    width: 46px
+}
+.sprites-xem-chi-tiet-hov {
+    background-position: 0 -6091px;
+    height: 30px;
+    width: 96px
+}
+.sprites-xem-chi-tiet-nor {
+    background-position: 0 -6121px;
+    height: 30px;
+    width: 96px
+}
+.sprites-xem-them-hov {
+    background-position: 0 -6151px;
+    height: 15px;
+    width: 85px
+}
+.sprites-xem-them-nor {
+    background-position: 0 -6166px;
+    height: 15px;
+    width: 85px
+}
+.sprites-xo-hov {
+    background-position: 0 -6181px;
+    height: 28px;
+    width: 28px
+}
+.sprites-xo-nor {
+    background-position: 0 -6209px;
+    height: 28px;
+    width: 28px
+}
+.ServerList {
+    display: block;
+    overflow: hidden;
+    float: left
+}
+.ServerList .ContentServerList {
+    margin-top: 10px;
+    background: url() bottom center no-repeat;
+    overflow: hidden;
+    padding-bottom: 30px
+}
+.ServerList .ContentServerList a.NewServer:link,
+.ServerList .ContentServerList a.NewServer:visited {
+    color: #fffccc;
+    text-decoration: none;
+    background-position: 0 -5616px;
+    height: 61px;
+    width: 251px;
+    text-indent: 0
+}
+.ServerList .ContentServerList a.NewServer:hover {
+    background-position: 0 -5555px;
+    height: 61px;
+    width: 251px;
+    text-indent: 0
+}
+.ServerList .ContentServerList a.NewServer span {
+    text-align: center;
+    line-height: 22px;
+    overflow: hidden;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 16px;
+    color: #fff
+}
+.ServerList .ContentServerList .ItemServer ul {
+    position: relative
+}
+.ServerList .ContentServerList .ItemServer ul li {
+    float: left;
+    margin: 0 8px 9px 0;
+    width: 121px;
+    height: 51px
+}
+.ServerList .ContentServerList .ItemServer ul li a:link,
+.ServerList .ContentServerList .ItemServer ul li a:visited {
+    background-position: 0 -3452px;
+    height: 47px;
+    width: 121px;
+    text-indent: 0;
+    text-align: center;
+    line-height: 50px
+}
+.ServerList .ContentServerList .ItemServer ul li a:hover {
+    background-position: 0 -3405px;
+    height: 47px;
+    width: 121px;
+    text-indent: 0;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none
+}
+.ServerList .ContentServerList .ItemServer ul li span {
+    line-height: 20px;
+    font-family: arial;
+    padding-top: 15px;
+    color: #fffaa6
+}
+.PlayGameHistory {
+    margin: 5px 14px 0 15px;
+    width: 250px
+}
+.PlayGameHistory ul {
+    height: 110px;
+    overflow: hidden;
+    position: relative;
+    width: 250px
+}
+.PlayGameHistory ul li {
+    display: block;
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    width: 100%
+}
+.PlayGameHistory ul li a {
+    color: #8ab8da;
+    display: block;
+    font-weight: bold;
+    line-height: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+.PlayGameHistory ul li a img {
+    border: 1px solid #000;
+    float: left;
+    height: 23px;
+    margin-right: 10px;
+    width: 23px
+}
+.PlayGameHistory ul li a .GameName {
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px
+}
+.PlayGameHistory ul li a .ServerGameName {
+    display: block;
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px;
+    padding-right: 10px
+}
+.PlayGameHistory ul li a:hover {
+    color: #37cded;
+    font-weight: bold
+}
+.PlayGameHistory ul li:nth-of-type(2n) {
+    background: #112735;
+    display: block;
+    overflow: hidden
+}
+.PlayGameHistory ul li:nth-of-type(2n+1) {
+    background: #08324d;
+    display: block;
+    overflow: hidden
+}
+.ListServer {
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 280px;
+    margin-top: 5px
+}
+ul.ServerList2 {
+    color: #fff;
+    margin: 0 auto;
+    width: 230px;
+    display: block;
+    overflow: hidden
+}
+ul.ServerList2 li {
+    width: 105px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 15px;
+    float: left;
+    margin: 10px 5px 0 5px
+}
+ul.ServerList2 li a {
+    background-position: 0 -3452px;
+    height: 47px;
+    width: 121px;
+    text-indent: 0;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px
+}
+ul.ServerList2 li a:hover {
+    background-position: 0 -3405px;
+    height: 47px;
+    width: 121px;
+    text-indent: 0;
+    text-align: center
+}
+ul.ServerList2 li a:hover .Name {
+    color: #ccf3ff
+}
+ul.ServerList2 li a span.Num {
+    width: 30px;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    overflow: hidden;
+    font-size: 12px;
+    height: 24px;
+    color: #fff
+}
+ul.ServerList2 li a .Name {
+    line-height: 45px;
+    display: block;
+    font-family: Tahoma;
+    color: #bcddff;
+    width: 121px;
+    height: 47px;
+    float: left;
+    font-weight: bold
+}
+ul.ServerList2 li a .Name span {
+    font-size: 12px
+}
+a.MayChuMoi:link,
+a.MayChuMoi:visited {
+    background-position: 0 -5616px;
+    height: 61px;
+    width: 251px;
+    text-align: center;
+    text-indent: 0;
+    display: block;
+    overflow: hidden;
+    color: #bcddff;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-bottom: 12px
+}
+a.MayChuMoi:link:hover,
+a.MayChuMoi:visited:hover {
+    background-position: 0 -5555px;
+    height: 61px;
+    width: 251px;
+    text-align: center;
+    text-indent: 0
+}
+a.MayChuMoi:link:hover .Name,
+a.MayChuMoi:visited:hover .Name {
+    color: #ccf3ff
+}
+a.MayChuMoi:link span.Num,
+a.MayChuMoi:visited span.Num {
+    width: 50px;
+    text-align: center;
+    float: left;
+    line-height: 32px;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 0
+}
+a.MayChuMoi:link .Name,
+a.MayChuMoi:visited .Name {
+    text-align: center;
+    line-height: 26px;
+    overflow: hidden;
+    display: block;
+    font-family: arial;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 16px;
+    color: #bcddff
+}
+a.MayChuMoi:link .Name span,
+a.MayChuMoi:visited .Name span {
+    font-size: 12px
+}
+.PageContent {
+    padding-top: 45px;
+    margin: 0 auto;
+    width: 260px;
+    text-align: center
+}
+.PageHome {
+    float: left
+}
+.HomeSerList li.Colum {
+    width: 260px;
+    height: 480px;
+    overflow: hidden;
+    display: block
+}
+.ListHero {
+    float: left;
+    width: 251px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    margin: 0 14px 0 15px
+}
+.ListHero ul {
+    overflow: hidden;
+    width: 270px;
+    float: left;
+    position: relative
+}
+.ListHero ul li {
+    width: 121px;
+    height: 47px;
+    float: left;
+    margin: 0 8px 10px 0
+}
+.ListHero ul li a {
+    display: block;
+    position: relative;
+    width: 121px;
+    height: 47px
+}
+.ListHero ul li a.Active:before {
+    content: '';
+    border: 3px solid #f00;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+.ListHero ul li a img {
+    border: 1px solid #000;
+    display: block;
+    opacity: .6
+}
+.ListHero ul li a.Active img {
+    opacity: 1
+}
+.Label {
+    text-align: right;
+    width: 60px;
+    float: left
+}
+.CenterPage {
+    width: 250px;
+    overflow: hidden;
+    height: 31px;
+    background: url(../images/home/paging.jpg) 0 1px no-repeat;
+    margin: 5px 0 15px 0
+}
+.CarouselWrapper {
+    float: left;
+    overflow: hidden;
+    width: 186px;
+    position: relative
+}
+.CenterPage .Prev {
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    text-indent: -1000em;
+    float: left;
+    position: relative;
+    background-position: 0 -5807px;
+    height: 30px;
+    width: 30px;
+    margin: 1px 0 0 1px
+}
+.CenterPage .Prev:hover {
+    width: 30px;
+    height: 30;
+    overflow: hidden;
+    text-indent: -1000em;
+    float: left;
+    position: relative;
+    background-position: 0 -5777px;
+    height: 30px;
+    width: 30px
+}
+.CenterPage .Next {
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    text-indent: -1000em;
+    float: left;
+    position: relative;
+    margin: 1px 0 0 1px;
+    background-position: 0 -5867px;
+    height: 30px;
+    width: 30px
+}
+.CenterPage .Next:hover {
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    text-indent: -1000em;
+    float: left;
+    position: relative;
+    background-position: 0 -5837px;
+    height: 30px;
+    width: 30px
+}
+.CenterPage .NumPage {
+    width: 185px;
+    height: 26px;
+    float: left;
+    overflow: hidden;
+    color: #a7b5bb;
+    margin: 2px
+}
+.CenterPage .NumPage li {
+    width: 60px;
+    text-align: center;
+    line-height: 21px;
+    background: none!important;
+    float: left;
+    height: 18px;
+    margin-top: 5px;
+    border-right: 1px solid #838dac;
+    margin-right: 0
+}
+.CenterPage .NumPage li a:link,
+.CenterPage .NumPage li a:visited {
+    color: #81adcd;
+    font-size: 11px;
+    background: 0;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    height: 18px;
+    line-height: 18px
+}
+.CenterPage .NumPage li a:hover {
+    color: #34c1df
+}
+.CenterPage .NumPage li a.CurPage:link,
+.CenterPage .NumPage li a.CurPage:visited {
+    color: #34c1df
+}
+.CenterPage .First {
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    text-indent: -1000em;
+    position: relative;
+    background: url(../images/home/paging.jpg) no-repeat 0 0;
+    float: left;
+    margin: 1px 0 0 1px
+}
+.CenterPage .First:hover {
+    background-position: 0 -30px
+}
+.CenterPage .End {
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    text-indent: -1000em;
+    float: left;
+    position: relative;
+    background: url(../images/home/paging.jpg) no-repeat -90px 0;
+    margin: 1px 0 0 1px
+}
+.CenterPage .End:hover {
+    background-position: -90px -30px
+}
+p.listserver-text {
+    background: url(../images/home/ds-mchu.png) no-repeat;
+    width: 198px;
+    height: 18px;
+    text-indent: -9999px;
+    margin: 0 0 12px 30px
+}
+p.history-text {
+    color: #8ab8da;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding: 5px 0 0 8px;
+    width: 245px;
+    margin: 0 auto;
+    border-top: 1px solid #252c3e
+}
+.ServerList .CenterPage .NumPage {
+    margin-top: 2px;
+    left: 0;
+    width: 99999px;
+    position: relative
+}
+div.ListEvent {
+    overflow: hidden;
+    background: #fffff7;
+    height: 335px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px
+}
+div.ListEvent li {
+    width: 100%;
+    float: left;
+    padding: 0 0 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: #bec2c6 solid 1px
+}
+div.ListEvent li a:link,
+div.ListEvent li a:visited {
+    float: left;
+    position: relative;
+    cursor: pointer;
+    width: 136px;
+    height: 86px;
+    margin-top: 5px;
+    border: 2px solid #4c6f09
+}
+div.ListEvent li a:link img,
+div.ListEvent li a:visited img {
+    display: block;
+    width: 136px;
+    height: 86px
+}
+div.ListEvent li .EventContent {
+    width: 260px;
+    padding: 0;
+    float: right;
+    margin-left: 10px;
+    overflow: hidden
+}
+div.ListEvent li .EventContent h3 {
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%
+}
+div.ListEvent li .EventContent h3 a:link,
+div.ListEvent li .EventContent h3 a:visited {
+    color: #db6107;
+    text-decoration: none;
+    border: 0;
+    width: 100%;
+    height: auto;
+    margin-top: 0
+}
+div.ListEvent li .EventContent .Date {
+    color: #db6107;
+    float: left;
+    font-size: 15px;
+    padding: 0;
+    text-align: left;
+    width: 200px
+}
+div.ListEvent li .EventContent .ShortContent {
+    clear: both;
+    width: 100%;
+    font-size: 15px;
+    color: #233d30
+}
+div.ListEvent li.Last {
+    border-bottom: 0
+}
+body {
+    font: 15px/22px Tahoma, Arial, Verdana, sans-serif;
+    margin: 0;
+    padding: 0
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+ul,
+ul li,
+ol,
+ol li,
+dl,
+dl dt,
+dl dd,
+blockquote {
+    margin: 0;
+    padding: 0
+}
+ul,
+ul li,
+ol,
+ol li {
+    list-style: none
+}
+img {
+    border: 0
+}
+a {
+    outline: 0
+}
+a:link,
+a:visited {
+    text-decoration: none
+}
+a:hover {
+    text-decoration: underline
+}
+fieldset {
+    border: 0;
+    background: 0;
+    margin: 0;
+    padding: 0
+}
+fieldset legend {
+    display: none
+}
+input,
+select,
+textarea {
+    font: 13px/19px Tahoma, Arial, Verdana, sans-serif
+}
+input[type="image"],
+input[type="submit"] {
+    outline: 0
+}
+input {
+    vertical-align: baseline;
+    margin: -1px -2px
+}
+html>body input {
+    vertical-align: text-bottom;
+    margin: 0
+}
+object,
+embed {
+    outline: 0
+}
+.Hidden {
+    display: none
+}
+.Wrapper {
+    overflow: visible;
+    height: 1%
+}
+html>body .Wrapper {
+    overflow: hidden;
+    height: auto
+}
+.breadcrumb ul li,
+ul li span {
+    white-space: nowrap
+}
+#thewindowbackground {
+    background-color: #000;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    z-index: 990;
+    width: auto;
+    position: absolute;
+    display: none;
+    filter: alpha(opacity=80)
+}
+#ad_zone_TV {
+    z-index: 1000
+}
+#bannerPopup {
+    margin: auto;
+    width: 660px;
+    height: 462px;
+    z-index: 1000;
+    position: absolute;
+    display: none;
+    background-color: #000
+}
+#btClose {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 101;
+    cursor: pointer
+}
+a#btClose:link,
+a#btClose:visited {
+    width: 71px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-indent: -9999px
+}
+a#btClose:hover {
+    background-position: 0 -32px
+}
+a#btCloseBottom:link,
+a#btCloseBottom:visited {
+    background: #000;
+    width: 23px;
+    height: 23px;
+    display: block;
+    position: absolute;
+    top: -3px;
+    right: -2px;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold
+}
+#bannerPopupBottom {
+    width: 300px!important;
+    height: 100px!important;
+    z-index: 1000!important;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    display: none;
+    overflow: hidden;
+    padding-top: 26px;
+    border: 0!important
+}
+#bannerPopupBottom img {
+    border: 1px solid #999
+}
+#btCloseBottom {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 991;
+    cursor: pointer
+}
+#boxFlashAds {
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    left: -9999em;
+    top: -9999em
+}
+.fixedBanner {
+    position: fixed!important
+}
+form.CheckClose {
+    display: block;
+    float: left;
+    color: #9e9e9e;
+    font-size: 11px
+}
+#bannerPopup .OptionClose {
+    display: block;
+    height: 30px;
+    width: 345px;
+    float: right;
+    padding-top: 3px
+}
+a.PopupBtnClose:link,
+a.PopupBtnClose:visited {
+    width: 51px;
+    height: 16px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-indent: -9999px;
+    float: right;
+    margin: 4px 5px 0 0
+}
+a.PopupBtnClose:hover {
+    background-position: 0 -16px
+}
+.PopupBG {
+    background: #000
+}
+#bannerPopup img {
+    padding: 32px 0 0 5px
+}
+#bannerPopup embed {
+    margin: 32px 0 0 5px
+}
+ul.Disc li {
+    list-style-type: disc;
+    margin-bottom: 0;
+    padding: 0 0 0 5px;
+    text-align: justify
+}
+#topbar {
+    height: 30px;
+    display: block;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+    position: relative;
+    z-index: 800;
+    overflow: hidden
+}
+#Topbar_Forum {
+    height: 40px;
+    display: block;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+    position: relative;
+    z-index: 800
+}
+body {
+    padding: 0;
+    margin: 0
+}
+img {
+    border: 0
+}
+h5,
+h6,
+form,
+ul,
+ul li,
+ol,
+ol li,
+dl,
+dl dt,
+dl dd {
+    margin: 0;
+    padding: 0
+}
+#boxTop {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+    background: url(../images/home/bg.jpg) repeat-x;
+    height: 40px;
+    overflow: visible
+}
+#box {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    height: 40px;
+    overflow: visible
+}
+.Left {
+    float: left
+}
+.Right {
+    float: right
+}
+.BoxLeft {
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+    height: 40px;
+    width: 200px;
+    line-height: 0;
+    display: none
+}
+#Logo a {
+    background: url(../images/home/space.gif);
+    height: 40px;
+    width: 220px;
+    display: block;
+    z-index: 20
+}
+.BoxLeft a:link {
+    width: 216px;
+    text-decoration: none
+}
+.StyleLink {
+    color: #737373;
+    text-decoration: none;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 13px;
+    float: right
+}
+.StyleLink a:link,
+.StyleLink a:visited,
+.StyleLink a:active {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px
+}
+.StyleLink a:hover {
+    color: #000;
+    text-decoration: underline
+}
+#gameBanner {
+    width: 1000px;
+    margin: 0 auto;
+    z-index: 10;
+    position: relative
+}
+.HoverBanner {
+    height: 150px;
+    width: 500px;
+    position: relative;
+    overflow: hidden
+}
+.SBanner {
+    float: left;
+    padding: 0
+}
+.BBanner {
+    display: none;
+    height: 0
+}
+.BigBanner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10000
+}
+.TBoxBanner {
+    width: 1000px;
+    display: block;
+    height: 40px;
+    float: left;
+    overflow: visible
+}
+
+#advTopBar1_temp {
+    z-index: 1000;
+    display: none
+}
+.Zone {
+    z-index: 10;
+    display: none
+}
+a.ViewMore,
+.FormSearch .BtnSearch {
+    display: block;
+    text-indent: -9999px
+}
+.sprites-sprite,
+.sprites-banner-nav-hov,
+.sprites-banner-nav-nor,
+.sprites-chon-may-chu-hov,
+.sprites-chon-may-chu-nor,
+.sprites-cn1-hov,
+.sprites-cn1-nor,
+.sprites-cn1-off,
+.sprites-cn2-hov,
+.sprites-cn2-nor,
+.sprites-cn2-off,
+.sprites-cn3-hov,
+.sprites-cn3-nor,
+.sprites-cn3-off,
+.sprites-cn4-hov,
+.sprites-cn4-nor,
+.sprites-cn4-off,
+.sprites-control-1-hov,
+.sprites-control-1-nor,
+.sprites-control-2-hov,
+.sprites-control-2-nor,
+.sprites-control-3-hov,
+.sprites-control-3-nor,
+.sprites-control-4-hov,
+.sprites-control-4-nor,
+.sprites-dang-ky-nhanh-hov,
+.sprites-dang-ky-nhanh-nor,
+.sprites-dang-ky-nhanh-off,
+.sprites-dang-nhap-hov,
+.sprites-dang-nhap-nor,
+.sprites-download-hov,
+.sprites-download-nor,
+.sprites-hang-1,
+.sprites-hang-2,
+.sprites-hang-3,
+.sprites-holine,
+.sprites-hot-line-hov,
+.sprites-hot-line-nor,
+.sprites-icon-hot,
+.sprites-icon-new,
+.sprites-icon-play,
+.sprites-logo-vng,
+.sprites-may-chu-hov,
+.sprites-may-chu-nor,
+.sprites-may-chu-off,
+.sprites-mnu-side-hov,
+.sprites-mnu-side-nor,
+.sprites-mnu-side-sub,
+.sprites-more-hov,
+.sprites-more-nor,
+.sprites-more-off,
+.sprites-nap-the-hov,
+.sprites-nap-the-nor,
+.sprites-nap-the-off,
+.sprites-nav-1-hov,
+.sprites-nav-1-nor,
+.sprites-nav-1-off,
+.sprites-nav-2-hov,
+.sprites-nav-2-nor,
+.sprites-nav-2-off,
+.sprites-nav-3-hov,
+.sprites-nav-3-nor,
+.sprites-nav-3-off,
+.sprites-nav-4-hov,
+.sprites-nav-4-nor,
+.sprites-nav-4-off,
+.sprites-nav-5-hov,
+.sprites-nav-5-nor,
+.sprites-nav-5-off,
+.sprites-nav-6-hov,
+.sprites-nav-6-nor,
+.sprites-nav-6-off,
+.sprites-nav-7-hov,
+.sprites-nav-7-nor,
+.sprites-nav-7-off,
+.sprites-new-server-hov,
+.sprites-new-server-nor,
+.sprites-ranking-hov,
+.sprites-ranking-nor,
+.sprites-search-hov,
+.sprites-search-nor,
+.sprites-server-nav-left-hov,
+.sprites-server-nav-left-nor,
+.sprites-server-nav-right-hov,
+.sprites-server-nav-right-nor,
+.sprites-thamgia-hov,
+.sprites-thamgia-nor,
+.sprites-tim-hov,
+.sprites-tim-nor,
+.sprites-top-hov,
+.sprites-top-nor,
+.sprites-xem-chi-tiet-hov,
+.sprites-xem-chi-tiet-nor,
+.sprites-xem-them-hov,
+.sprites-xem-them-nor,
+.sprites-xo-hov,
+.sprites-xo-nor,
+a.ViewMore,
+a.ViewMore:hover,
+.FormSearch .BtnSearch,
+.FormSearch .BtnSearch:hover {
+    background-image: url('../images/home/sprites-s1de797f653.png');
+    background-repeat: no-repeat
+}
+.sprites-banner-nav-hov {
+    background-position: 0 0;
+    height: 19px;
+    width: 20px
+}
+.sprites-banner-nav-nor {
+    background-position: 0 -19px;
+    height: 19px;
+    width: 20px
+}
+.sprites-chon-may-chu-hov {
+    background-position: 0 -38px;
+    height: 70px;
+    width: 80px
+}
+.sprites-chon-may-chu-nor {
+    background-position: 0 -108px;
+    height: 70px;
+    width: 80px
+}
+.sprites-cn1-hov {
+    background-position: 0 -178px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn1-nor {
+    background-position: 0 -356px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn1-off {
+    background-position: 0 -534px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-hov {
+    background-position: 0 -712px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-nor {
+    background-position: 0 -890px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn2-off {
+    background-position: 0 -1068px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-hov {
+    background-position: 0 -1246px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-nor {
+    background-position: 0 -1424px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn3-off {
+    background-position: 0 -1602px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-hov {
+    background-position: 0 -1780px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-nor {
+    background-position: 0 -1958px;
+    height: 178px;
+    width: 105px
+}
+.sprites-cn4-off {
+    background-position: 0 -2136px;
+    height: 178px;
+    width: 105px
+}
+.sprites-control-1-hov {
+    background-position: 0 -2314px;
+    height: 45px;
+    width: 81px
+}
+.sprites-control-1-nor {
+    background-position: 0 -2359px;
+    height: 45px;
+    width: 81px
+}
+.sprites-control-2-hov {
+    background-position: 0 -2404px;
+    height: 45px;
+    width: 88px
+}
+.sprites-control-2-nor {
+    background-position: 0 -2449px;
+    height: 45px;
+    width: 88px
+}
+.sprites-control-3-hov {
+    background-position: 0 -2494px;
+    height: 45px;
+    width: 73px
+}
+.sprites-control-3-nor {
+    background-position: 0 -2539px;
+    height: 45px;
+    width: 73px
+}
+.sprites-control-4-hov {
+    background-position: 0 -2584px;
+    height: 45px;
+    width: 85px
+}
+.sprites-control-4-nor {
+    background-position: 0 -2629px;
+    height: 45px;
+    width: 85px
+}
+.sprites-dang-ky-nhanh-hov {
+    background-position: 0 -2674px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-ky-nhanh-nor {
+    background-position: 0 -2714px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-ky-nhanh-off {
+    background-position: 0 -2754px;
+    height: 40px;
+    width: 140px
+}
+.sprites-dang-nhap-hov {
+    background-position: 0 -2794px;
+    height: 70px;
+    width: 80px
+}
+.sprites-dang-nhap-nor {
+    background-position: 0 -2864px;
+    height: 70px;
+    width: 80px
+}
+.sprites-download-hov {
+    background-position: 0 -2934px;
+    height: 20px;
+    width: 23px
+}
+.sprites-download-nor {
+    background-position: 0 -2954px;
+    height: 20px;
+    width: 23px
+}
+.sprites-hang-1 {
+    background-position: 0 -2974px;
+    height: 16px;
+    width: 20px
+}
+.sprites-hang-2 {
+    background-position: 0 -2990px;
+    height: 16px;
+    width: 20px
+}
+.sprites-hang-3 {
+    background-position: 0 -3006px;
+    height: 16px;
+    width: 20px
+}
+.sprites-holine {
+    background-position: 0 -3022px;
+    height: 83px;
+    width: 271px
+}
+.sprites-hot-line-hov {
+    background-position: 0 -3105px;
+    height: 49px;
+    width: 280px
+}
+.sprites-hot-line-nor {
+    background-position: 0 -3154px;
+    height: 49px;
+    width: 280px
+}
+.sprites-icon-hot {
+    background-position: 0 -3203px;
+    height: 42px;
+    width: 42px
+}
+.sprites-icon-new {
+    background-position: 0 -3245px;
+    height: 42px;
+    width: 42px
+}
+.sprites-icon-play {
+    background-position: 0 -3287px;
+    height: 55px;
+    width: 46px
+}
+.sprites-logo-vng {
+    background-position: 0 -3342px;
+    height: 63px;
+    width: 42px
+}
+.sprites-may-chu-hov {
+    background-position: 0 -3405px;
+    height: 47px;
+    width: 121px
+}
+.sprites-may-chu-nor {
+    background-position: 0 -3452px;
+    height: 47px;
+    width: 121px
+}
+.sprites-may-chu-off {
+    background-position: 0 -3499px;
+    height: 47px;
+    width: 121px
+}
+.sprites-mnu-side-hov {
+    background-position: 0 -3546px;
+    height: 51px;
+    width: 270px
+}
+.sprites-mnu-side-nor {
+    background-position: 0 -3597px;
+    height: 51px;
+    width: 270px
+}
+.sprites-mnu-side-sub {
+    background-position: 0 -3648px;
+    height: 50px;
+    width: 270px
+}
+.sprites-more-hov {
+    background-position: 0 -3698px;
+    height: 19px;
+    width: 20px
+}
+.sprites-more-nor {
+    background-position: 0 -3717px;
+    height: 19px;
+    width: 20px
+}
+.sprites-more-off {
+    background-position: 0 -3736px;
+    height: 40px;
+    width: 210px
+}
+.sprites-nap-the-hov {
+    background-position: 0 -3776px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nap-the-nor {
+    background-position: 0 -3816px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nap-the-off {
+    background-position: 0 -3856px;
+    height: 40px;
+    width: 140px
+}
+.sprites-nav-1-hov {
+    background-position: 0 -3896px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-1-nor {
+    background-position: 0 -3975px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-1-off {
+    background-position: 0 -4054px;
+    height: 79px;
+    width: 60px
+}
+.sprites-nav-2-hov {
+    background-position: 0 -4133px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-2-nor {
+    background-position: 0 -4212px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-2-off {
+    background-position: 0 -4291px;
+    height: 79px;
+    width: 86px
+}
+.sprites-nav-3-hov {
+    background-position: 0 -4370px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-3-nor {
+    background-position: 0 -4449px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-3-off {
+    background-position: 0 -4528px;
+    height: 79px;
+    width: 87px
+}
+.sprites-nav-4-hov {
+    background-position: 0 -4607px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-4-nor {
+    background-position: 0 -4686px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-4-off {
+    background-position: 0 -4765px;
+    height: 79px;
+    width: 100px
+}
+.sprites-nav-5-hov {
+    background-position: 0 -4844px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-5-nor {
+    background-position: 0 -4923px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-5-off {
+    background-position: 0 -5002px;
+    height: 79px;
+    width: 108px
+}
+.sprites-nav-6-hov {
+    background-position: 0 -5081px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-6-nor {
+    background-position: 0 -5160px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-6-off {
+    background-position: 0 -5239px;
+    height: 79px;
+    width: 113px
+}
+.sprites-nav-7-hov {
+    background-position: 0 -5318px;
+    height: 79px;
+    width: 80px
+}
+.sprites-nav-7-nor {
+    background-position: 0 -5397px;
+    height: 79px;
+    width: 80px
+}
+.sprites-nav-7-off {
+    background-position: 0 -5476px;
+    height: 79px;
+    width: 80px
+}
+.sprites-new-server-hov {
+    background-position: 0 -5555px;
+    height: 61px;
+    width: 251px
+}
+.sprites-new-server-nor {
+    background-position: 0 -5616px;
+    height: 61px;
+    width: 251px
+}
+.sprites-ranking-hov {
+    background-position: 0 -5677px;
+    height: 25px;
+    width: 30px
+}
+.sprites-ranking-nor {
+    background-position: 0 -5702px;
+    height: 25px;
+    width: 30px
+}
+.sprites-search-hov {
+    background-position: 0 -5727px;
+    height: 25px;
+    width: 30px
+}
+.sprites-search-nor {
+    background-position: 0 -5752px;
+    height: 25px;
+    width: 30px
+}
+.sprites-server-nav-left-hov {
+    background-position: 0 -5777px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-left-nor {
+    background-position: 0 -5807px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-right-hov {
+    background-position: 0 -5837px;
+    height: 30px;
+    width: 30px
+}
+.sprites-server-nav-right-nor {
+    background-position: 0 -5867px;
+    height: 30px;
+    width: 30px
+}
+.sprites-thamgia-hov {
+    background-position: 0 -5897px;
+    height: 20px;
+    width: 13px
+}
+.sprites-thamgia-nor {
+    background-position: 0 -5917px;
+    height: 20px;
+    width: 13px
+}
+.sprites-tim-hov {
+    background-position: 0 -5937px;
+    height: 30px;
+    width: 80px
+}
+.sprites-tim-nor {
+    background-position: 0 -5967px;
+    height: 30px;
+    width: 80px
+}
+.sprites-top-hov {
+    background-position: 0 -5997px;
+    height: 47px;
+    width: 46px
+}
+.sprites-top-nor {
+    background-position: 0 -6044px;
+    height: 47px;
+    width: 46px
+}
+.sprites-xem-chi-tiet-hov {
+    background-position: 0 -6091px;
+    height: 30px;
+    width: 96px
+}
+.sprites-xem-chi-tiet-nor {
+    background-position: 0 -6121px;
+    height: 30px;
+    width: 96px
+}
+.sprites-xem-them-hov {
+    background-position: 0 -6151px;
+    height: 15px;
+    width: 85px
+}
+.sprites-xem-them-nor {
+    background-position: 0 -6166px;
+    height: 15px;
+    width: 85px
+}
+.sprites-xo-hov {
+    background-position: 0 -6181px;
+    height: 28px;
+    width: 28px
+}
+.sprites-xo-nor {
+    background-position: 0 -6209px;
+    height: 28px;
+    width: 28px
+}
+.BlockNews {
+    position: relative;
+    width: 430px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 10px
+}
+.BlockNews ul.Tab {
+    background: url(../images/home/bg-tab-news.jpg) no-repeat;
+    padding: 0 0 0 10px;
+    height: 41px
+}
+.BlockNews ul.Tab li {
+    float: left;
+    height: 38px;
+    line-height: 33px;
+    margin: 3px 3px 0 0;
+    float: left;
+    white-space: nowrap
+}
+.BlockNews ul.Tab li a:link,
+.BlockNews ul.Tab li a:visited {
+    display: block;
+    padding: 0 15px;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    height: 38px;
+    line-height: 36px
+}
+.BlockNews ul.Tab li a:link span,
+.BlockNews ul.Tab li a:visited span {
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #8ab8da;
+    margin-right: 0;
+    white-space: nowrap
+}
+.BlockNews ul.Tab li.active,
+.BlockNews ul.Tab li.Active {
+    background: #0e111a;
+    color: #bcddff
+}
+.BlockNews ul.Tab li.active a:link,
+.BlockNews ul.Tab li.active a:visited,
+.BlockNews ul.Tab li.Active a:link,
+.BlockNews ul.Tab li.Active a:visited {
+    background: #0e111a
+}
+.BlockNews ul.Tab li.active a:link span,
+.BlockNews ul.Tab li.active a:visited span,
+.BlockNews ul.Tab li.Active a:link span,
+.BlockNews ul.Tab li.Active a:visited span {
+    color: #bcddff
+}
+.BlockNews ul.Tab li a:hover {
+    color: #0e111a;
+    text-decoration: none
+}
+.BlockNews ul.Tab li a:hover span {
+    color: #bcddff;
+    text-decoration: none
+}
+.BlockNews ul.Tab li:hover {
+    background: #0e111a
+}
+.BlockNews .ListNews {
+    background: #0e111a;
+    height: 325px
+}
+.BlockNews .ListNews ul {
+    position: relative
+}
+.BlockNews .ListNews ul li {
+    width: 430px;
+    height: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left
+}
+.BlockNews .ListNews ul li a:link,
+.BlockNews .ListNews ul li a:visited {
+    display: block;
+    height: 34px;
+    background: url(../images/home/bg_news.jpg) 0 0 no-repeat;
+    color: #9f906e;
+    white-space: nowrap
+}
+.BlockNews .ListNews ul li a:link span,
+.BlockNews .ListNews ul li a:visited span {
+    font-size: 14px;
+    color: #8ab8da;
+    width: 323px;
+    padding-left: 30px;
+    padding-top: 7px;
+    float: left;
+    display: block;
+    white-space: nowrap
+}
+.BlockNews .ListNews ul li a:link span.hot,
+.BlockNews .ListNews ul li a:visited span.hot {
+    color: #35c4e3
+}
+.BlockNews .ListNews ul li a:link time,
+.BlockNews .ListNews ul li a:visited time {
+    color: #4f5462;
+    width: 47px;
+    padding-top: 7px;
+    padding-left: 30px;
+    float: left;
+    display: block;
+    font-size: 14px;
+}
+.BlockNews .ListNews ul li a:hover {
+    height: 34px;
+    background-position: 0 -34px;
+    text-decoration: none
+}
+.BlockNews .ListNews ul li a:hover span {
+    text-decoration: none
+}
+.BlockNews .ListNews ul li.First {
+    height: 130px;
+    overflow: hidden;
+    padding-top: 10px;
+    margin: 0;
+    float: left
+}
+.BlockNews .ListNews ul li.First a:link,
+.BlockNews .ListNews ul li.First a:visited {
+    height: 108px;
+    background: #0e111a
+}
+.BlockNews .ListNews ul li.First a:link:hover .FirstTitle span,
+.BlockNews .ListNews ul li.First a:visited:hover .FirstTitle span {
+    color: #37cded;
+    text-decoration: none
+}
+.BlockNews .ListNews ul li.First a:link:hover .FirstImg span,
+.BlockNews .ListNews ul li.First a:visited:hover .FirstImg span {
+    text-decoration: none
+}
+.BlockNews .ListNews ul li.First a:link:hover .FirstImg img,
+.BlockNews .ListNews ul li.First a:visited:hover .FirstImg img {
+    border: 2px solid #3081b0
+}
+.BlockNews .ListNews ul li.First p.FirstTitle {
+    display: block;
+    clear: both
+}
+.BlockNews .ListNews ul li.First p.FirstTitle span {
+    float: left;
+    height: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    color: #8ab8da;
+    background: url(../images/home/bg_news_first-v1.jpg) no-repeat
+}
+.BlockNews .ListNews ul li.First p.FirstImg img {
+    float: left;
+    width: 136px;
+    height: 86px;
+    border: 2px solid #274f71;
+    margin-left: 30px
+}
+.BlockNews .ListNews ul li.First p.FirstImg span {
+    color: #92a3b1;
+    float: right;
+    width: 240px;
+    height: 86px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 0;
+    font-weight: normal;
+    white-space: normal;
+    line-height: 20px;
+}
+.BlockNews .ListNews ul li.Last {
+    height: 34px
+}
+a.ViewMore {
+    background-position: 0 -3717px;
+    height: 19px;
+    width: 20px;
+    position: absolute;
+    top: 12px;
+    left: 180px
+}
+a.ViewMore:hover {
+    background-position: 0 -3698px;
+    height: 19px;
+    width: 20px
+}
+.FormSearch {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 158px;
+    z-index: 100
+}
+.FormSearch input {
+    background: #597290;
+    border: 0;
+    float: left;
+    width: 115px;
+    height: 24px;
+    padding: 0 0 0 10px;
+    line-height: 24px;
+    color: #0e111a
+}
+.FormSearch .BtnSearch {
+    background-position: 0 -5752px;
+    height: 25px;
+    width: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    float: left;
+    border: 0
+}
+.FormSearch .BtnSearch:hover {
+    background-position: 0 -5727px;
+    height: 25px;
+    width: 30px
+}
+div.Theme_GP_Wrapper {
+    width: 260px;
+    height: 30px;
+    float: left;
+    background: url(../images/home/select-server.jpg) 0 0 no-repeat;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 10px
+}
+.ListHeroLogout div.Theme_GP_Wrapper {
+    margin-left: 0
+}
+.RankingType2 {
+    width: 196px;
+    background: url() 0 0 no-repeat!important
+}
+div.Theme_GP_List {
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    z-index: 100
+}
+div.Theme_GP_Wrapper p {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 4px 31px 4px 15px;
+    width: 204px;
+    color: #ffe6be
+}
+div.Theme_GP_List ul.Theme_GP {
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden
+}
+div.Theme_GP_List ul.Theme_GP li {
+    width: 250px;
+    height: 30px;
+    float: left;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-size: 12px
+}
+div.Theme_GP_List ul.SelectUI {
+    background: #32302b;
+    width: 250px;
+    border-bottom: 1px solid #000
+}
+div.Theme_GP_List ul.SelectUI li {
+    width: 250px
+}
+div.Theme_GP_List ul.SelectUI1 {
+    background: #192133;
+    width: 190px;
+    border-bottom: 1px solid #000
+}
+div.Theme_GP_List ul.SelectUI1 li {
+    width: 190px;
+    border-right: 1px solid #2f3c5e;
+    border-left: 1px solid #2f3c5e
+}
+div.Theme_GP_List ul.Theme_GP li span {
+    font-size: 12px;
+    font-weight: bolder;
+    font-style: italic;
+    display: block;
+    cursor: default;
+    padding: 3px 0 3px 4px
+}
+div.Theme_GP_List ul.Theme_GP li a:link,
+div.Theme_GP_List ul.Theme_GP li a:visited {
+    display: block;
+    width: 240px;
+    height: 30px;
+    line-height: 29px;
+    font-size: 12px;
+    padding: 0 0 0 10px;
+    overflow: hidden;
+    text-decoration: none;
+    background: #2c2a25;
+    color: #fff
+}
+div.Theme_GP_List ul.SelectUI li a:link,
+div.Theme_GP_List ul.SelectUI li a:visited {
+    color: #9f906e;
+    background: #2c2a25
+}
+div.Theme_GP_List ul.SelectUI1 li a:link,
+div.Theme_GP_List ul.SelectUI1 li a:visited {
+    background: #3f4348;
+    width: 192px
+}
+div.Theme_GP_List ul.Theme_GP li.Active a:link,
+div.Theme_GP_List ul.Theme_GP li.Active a:visited {
+    color: #05d680
+}
+div.Theme_GP_List ul.SelectUI li.Active a:link,
+div.Theme_GP_List ul.SelectUI li.Active a:visited {
+    color: #05d680
+}
+div.Theme_GP_List ul.SelectUI1 li.Active a:link,
+div.Theme_GP_List ul.SelectUI1 li.Active a:visited {
+    color: #ffc000
+}
+div.Theme_GP_List ul.Theme_GP li.Hover a:link,
+div.Theme_GP_List ul.Theme_GP li.Hover a:visited {
+    text-decoration: none;
+    color: #be490f;
+    background: #4e483a
+}
+div.Theme_GP_List ul.SelectUI1 li.Hover a:link,
+div.Theme_GP_List ul.SelectUI1 li.Hover a:visited {
+    text-decoration: none;
+    color: #ffc000;
+    background: #6d1e15
+}
+div.Theme_GP_Modified_Wrapper {
+    float: left;
+    display: block
+}
+.selectBox-dropdown {
+    position: relative;
+    border: solid 1px #BBB;
+    line-height: 1.5;
+    text-decoration: none;
+    height: 25px;
+    text-align: left;
+    color: #826363;
+    outline: 0;
+    vertical-align: middle;
+    background: url("") no-repeat scroll center 0;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#F8F8F8', endColorstr='#E1E1E1', GradientType=0);
+    display: inline-block;
+    cursor: pointer;
+    border: 0
+}
+.selectBox-dropdown:hover {
+    background: url("") no-repeat scroll center 0
+}
+.selectBox-dropdown:focus,
+.selectBox-dropdown:focus .selectBox-arrow {
+    border-color: #666
+}
+.selectBox-dropdown.selectBox-menuShowing-bottom {
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+.selectBox-dropdown.selectBox-menuShowing-top {
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+.selectBox-dropdown .selectBox-label {
+    padding: 1px 6px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: Arial;
+    font-size: 15px;
+    cursor: pointer
+}
+.selectBox-dropdown .selectBox-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 23px;
+    height: 100%
+}
+.selectBox-dropdown-menu {
+    position: absolute;
+    z-index: 99999;
+    max-height: 200px;
+    min-height: 1em;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch
+}
+.selectBox-inline {
+    min-width: 150px;
+    outline: 0;
+    border: solid 1px #BBB;
+    background: #FFF;
+    display: inline-block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    overflow: auto
+}
+.selectBox-inline:focus {
+    border-color: #666
+}
+.selectBox-options,
+.selectBox-options LI,
+.selectBox-options LI A {
+    list-style: none;
+    display: block;
+    cursor: default;
+    padding: 0;
+    margin: 0;
+    background-color: #fff0de;
+    color: #826363;
+    border-top: 1px solid #dcd4c8
+}
+.selectBox-options.selectBox-options-top {
+    border-bottom: 0;
+    margin-top: 1px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+.selectBox-options LI A {
+    line-height: 30px;
+    padding: 0 .5em;
+    white-space: nowrap;
+    overflow: hidden;
+    background: 6px center no-repeat;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px
+}
+.selectBox-options LI.selectBox-hover A {
+    background-color: #fff0de;
+    color: #c61500;
+    text-decoration: none
+}
+.selectBox-options LI.selectBox-disabled A {
+    color: #888;
+    background-color: transparent
+}
+.selectBox-options LI.selectBox-selected A {
+    background-color: #fff0de;
+    color: #c61500
+}
+.selectBox-options .selectBox-optgroup {
+    color: #666;
+    background: #EEE;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 0 .3em;
+    white-space: nowrap
+}
+.selectBox.selectBox-disabled {
+    color: #888!important
+}
+.selectBox-dropdown.selectBox-disabled .selectBox-arrow {
+    opacity: .5;
+    filter: alpha(opacity=50);
+    border-color: #666
+}
+.selectBox-inline.selectBox-disabled {
+    color: #888!important
+}
+.selectBox-inline.selectBox-disabled .selectBox-options A {
+    background-color: transparent!important
+}
+
+/*Giftcode*/
+#giftcode{background: url(../images/account/popup_tanthu.png) no-repeat top center; width: 700px; height: 365px;}
+#giftcode .pu-title{height: 62px;width: 100%;}
+.pu-content{height: 270px; font-size: 13px}
+#giftcode .plugin-schrome{width: 306px; height: 100%;}
+#giftcode h3{text-align: center; margin: 20px 0 0; color: #9d9acd; font-size: 14px;}
+#giftcode .po-email{width: 310px; height: 100%;}
+#giftcode .po-sms{width: 303px; height: 100%;}
+.yellow{color: #fff000; font-size: 20px;}
+.save-plugin, .send-email{width: 153px; height: 39px;  -webkit-border-radius: 4px/3px;  -moz-border-radius: 4px/3px;  border-radius: 4px/3px;  background-color: #ff4b4b; display: block;
+font-weight: bold; line-height: 39px; color: white; text-align: center; font-size: 14px; margin: 40px auto;}
+.send-email{margin: 8px auto;}
+.pl-show-code{width: 232px; height: 33px; background: #fff; color: #000000; line-height: 33px; text-align: center; font-size: 14px; display: block; margin: 10px auto;}
+#giftcode .plugin-schrome p{color: #9d9acd; text-align: center; font-size: 13px;}
+#giftcode .po-sms h3{margin: 20px auto 11px;}
+.po-sms strong{margin: 40px auto ; width: 267px; font-size: 14px; border: 1px solid #000; color: #ff4b4b; display: block;padding:20px 0px; text-align: center}
+.po-sms strong .white{color: white;}
+.po-sms i, .po-email i{color: #ff4b4b; text-align: center; width: 300px; display: block}
+#email-code{width: 220px; height: 30px; margin: 30px 0 0 36px; line-height: 30px; padding: 0 4px}
+
+.left{float:left;}
+.user_logined {line-height: 25px; font-size: 14px;}
+.s_xemthem {width: 105px; font-size: 14px;}
+.code-tanthu {margin-top: 50px; text-transform: uppercase; font-size: 15px !important;}

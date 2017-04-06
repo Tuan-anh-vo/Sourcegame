@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'UTM_Hanzel_Regular';
+	src: url('UTM_Hanzel_Regular.eot?#iefix') format('embedded-opentype'),  url('UTM_Hanzel_Regular.woff') format('woff'), url('UTM_Hanzel_Regular.ttf')  format('truetype'), url('UTM_Hanzel_Regular.svg#AllstarNam') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.label_server{float:left;text-transform:uppercase;}
+.label_server span{font-family:'UTM_Hanzel_Regular';font-size: 20px;color:#7b0000;float:left;line-height:28px;}
+.label_server span:nth-child(1){text-align:right;width:160px}
+.label_server span:nth-child(2){text-align:left;width:180px;margin: 0 0 0 44px;}
+.d_duoi{font-size: 23px;color:#e00907;}
+

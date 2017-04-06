@@ -1,0 +1,75 @@
+*{font-family: arial !important;}
+a{text-decoration: none;}
+
+.popup-daptrung{width:753px;height:732px;background:url(../images/daptrung/popup-bg.png) no-repeat;float: left;overflow-x: hidden;overflow-y: hidden;margin: 0 0 0;}
+
+@media (max-height:800px){
+.popup-daptrung{margin: -153px 0 0;}
+}
+
+.popup-daptrung div.popup-title{color:#fff47e;text-align: center; text-transform: uppercase;font-family: arial;font-size: 19px;font-weight: bold;margin: 174px 0 0 242px;}
+.popup-daptrung .tabmenu-daptrung{float: right;margin: 17px 0 0 0;}
+.tabmenu-daptrung ul.menu-daptrung{float: left;}
+.tabmenu-daptrung ul.menu-daptrung li{list-style: none;float: left;}
+.tabmenu-daptrung ul.menu-daptrung li a{display: block;float: left;width:166px;height:54px;background:url(../images/daptrung/tabmenu.png) no-repeat top center;font-family: arial;font-size: 16px;color:#fff;font-weight: bold;line-height: 54px;text-align: center;-webkit-transition: background-position .5s;-moz-transition:background-position .5s;-o-transition:background-position .5s}
+.tabmenu-daptrung ul.menu-daptrung li a:hover{background-position: 0 -59px;}
+.tabmenu-daptrung .tab-daptrung{}
+.tab-daptrung .tab-row{text-align: center;clear: both;float: left;width: 100%;}
+.tab-row .timer{width: 180px;float: left;text-align: center;}
+.tab-row .timer span{display: inline-block;}
+.timer span.timer-label{color:#ffca58;font-size: 14px;}
+.timer span.timer-number{background: url(../images/daptrung/timer-number.png) no-repeat top right;width:140px;height:29px;margin: 0 0 0 -30px;text-align: left;padding: 6px 0 0;color:#fdb60d;font-weight: bold;font-size: 16px;}
+
+span.hours{margin: 0 6px 0 8px;}
+span.min{margin: 0 7px 0 7px;}
+span.second{margin: 0 0 0 7px;}
+
+.tab-row a.bt-nhanbua{width:116px;height:116px;display: block;background: url(../images/daptrung/bt-nhanbua.png) no-repeat top center;float: left;}
+.tab-row a.bt-nhanbua:hover{background-position:0 -121px;}
+
+.tab-row .bt-duatop{width:116px;height:116px;display: block;background: url(../images/daptrung/bt-duatop.png) no-repeat top center;float: left;border: none;outline: none;cursor: pointer;}
+.tab-row .bt-duatop:hover{background-position:0 -121px;}
+.tab-row .bt-duatop.duatop-no-act{background-position:top center!important;}
+.tab-row .bt-duatop.duatop--act{background-position:0 -121px!important;}
+
+.tab-row .user-area{}
+.tab-row .user-area p{color:#fe9c01;font-size: 13px;text-align: left;}
+
+.trung1,.trung2,.trung3,.trung4{background:url(../images/daptrung/bt-trung2.png) no-repeat;width:103px;height:149px;display: block;float: left;border: none;outline: none;cursor:pointer;margin-left: 11px;}
+.tab-row .trung1{background-position: -30px 0;}
+.tab-row .trung2{background-position: -147px 0;}
+.tab-row .trung3{background-position: -266px 0;}
+.tab-row .trung4{background-position: -384px 0;}
+.tab-row .trung1:hover{background-position: -30px -161px;}
+.tab-row .trung2:hover{background-position: -147px -161px;}
+.tab-row .trung3:hover{background-position: -266px -161px;}
+.tab-row .trung4:hover{background-position: -384px -161px;}
+
+.tab-row .trung1.trung-act{background-position: -30px -331px;}
+.tab-row .trung2.trung-act{background-position: -147px -331px;}
+.tab-row .trung3.trung-act{background-position: -266px -331px;}
+.tab-row .trung4.trung-act{background-position: -384px -331px;}
+
+
+.tab-row a.bt-lammoi{background:url(../images/daptrung/bt-lammoi.png) no-repeat top center;width:143px;height:42px;display: inline-block;}
+.tab-row a.bt-lammoi:hover{background-position: 0 -51px;}
+
+.tab-row table.tbl-xephang{width: 450px;margin: 10px auto 0;}
+.tab-row table.tbl-xephang tr{border: 1px solid #F2DB83;text-align: center;color:#F2DB83;font-size: 13px;}
+.tab-row table.tbl-xephang tr th{border: 1px solid #F2DB83;padding: 6px 10px;}
+.tab-row table.tbl-xephang tr td{border: 1px solid #F2DB83;padding: 5px 10px;}
+
+.tab-row .daptrung-footer{text-align: left;background:url(../images/daptrung/daptrung-footer.png) no-repeat top center;width:480px;height:96px;float: left;}
+.tab-row .daptrung-footer p{font-size: 13px;color:#8c4600;line-height: 18px;padding: 0 0 0 8px;}
+.tab-row .daptrung-footer p a.bt-seemore{border: 1px solid #620000; color:#620000;padding:2px 6px 0px;margin: -10px 16px 0 0;float: right;}
+
+/*a:hover
+{
+text-decoration: none;
+background: url("http://bangvu.net/2trochuot/link.gif");
+background-position: bottom bottom;
+cursor : url("http://bangvu.net/2trochuot/link.cur"), progress;
+}*/
+
+
+.clear{clear: both;}

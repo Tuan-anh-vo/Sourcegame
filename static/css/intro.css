@@ -1,0 +1,34 @@
+.wrapper{background:url(../images/intro/bg.jpg) no-repeat top center;}
+.container{width:1100px; margin:0 auto;height:920px;position:relative;}
+.user_logined{float:left;font-family:arial;position: absolute;top: 4px;left: 490px;line-height: 20px;font-size: 13px;}
+
+.user_logined p{color:#fff;}
+.user_logined a{text-decoration:none;color:#fff}
+a.logo{position:absolute;top:14px;left:20px;width:260px;height:155px;background:url(http://hoangdoweb.com/static/web/images/logo.png);display:block;}
+a.giftcode{background:url(../images/intro/btn_giftcode2.png) no-repeat;position:absolute;top:422px;left:218px;width:742px;height:272px;display:block;}
+a.giftcode:hover{background-position:-768px 0;}
+a.link_fb{background:url(../images/intro/btn_fb2.png) no-repeat;display:block;width:192px;height:68px;position:absolute;background-size:100%;left:290px;}
+/*Giftcode*/
+#giftcode{background: url(../images/account/hi.png) no-repeat top center; width: 700px; height: 365px;}
+#giftcode .pu-title{height: 62px;width: 100%;}
+.pu-content{height: 270px; font-size: 13px}
+#giftcode .plugin-schrome{width: 306px; height: 100%;}
+#giftcode h3{text-align: center; margin: 20px 0 0; color: #9d9acd; font-size: 14px;}
+#giftcode .po-email{width: 310px; height: 100%;}
+#giftcode .po-sms{width: 303px; height: 100%;}
+.yellow{color: #fff000; font-size: 20px;}
+.save-plugin, .send-email{width: 153px; height: 39px;  -webkit-border-radius: 4px/3px;  -moz-border-radius: 4px/3px;  border-radius: 4px/3px;  background-color: #ff4b4b; display: block;
+font-weight: bold; line-height: 39px; color: white; text-align: center; font-size: 14px; margin: 40px auto;}
+.send-email{margin: 8px auto;}
+.pl-show-code{width: 232px; height: 33px; background: #fff; color: #000000; line-height: 33px; text-align: center; font-size: 14px; display: block; margin: 10px auto;}
+#giftcode .plugin-schrome p{color: #9d9acd; text-align: center; font-size: 13px;}
+#giftcode .po-sms h3{margin: 20px auto 11px;}
+.po-sms strong{margin: 40px auto ; width: 267px; font-size: 14px; border: 1px solid #000; color: #ff4b4b; display: block;padding:20px 0px; text-align: center}
+.po-sms strong .white{color: white;}
+.po-sms i, .po-email i{color: #ff4b4b; text-align: center; width: 300px; display: block}
+#email-code{width: 220px; height: 30px; margin: 30px 0 0 36px; line-height: 30px; padding: 0 4px}
+
+.left{float:left;}
+.user_logined {line-height: 25px; font-size: 14px;}
+.s_xemthem {width: 105px; font-size: 14px;}
+.code-tanthu {margin-top: 50px; text-transform: uppercase; font-size: 15px !important;}

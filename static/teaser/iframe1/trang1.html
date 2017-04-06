@@ -1,0 +1,60 @@
+
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. "DO NOT" alter the tokens in the template html as they are required during publishing.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>trang1</title>
+<!-- write your code here -->
+
+<style type="text/css">
+	#canvas{position: relative;top:0;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);-o-transform: translateX(-50%);-ms-transform: translateX(-50%);}
+</style>
+<script src="libs/createjs-2015.11.26.min.js"></script>
+<script src="trang1.js?1471839684343"></script>
+<script>
+var canvas, stage, exportRoot;
+function init() {
+	// --- write your JS code here ---
+	
+	createjs.MotionGuidePlugin.install();
+
+	canvas = document.getElementById("canvas");
+	images = images||{};
+
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete(evt) {
+	exportRoot = new lib.trang1();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+
+</script>
+
+<!-- write your code here -->
+
+</head>
+<body onload="init();" style="background-color:#D4D4D4;margin:0px;">
+	<canvas id="canvas" width="1920" height="900" style="background-color:#FFFFFF"></canvas>
+</body>
+</html>
